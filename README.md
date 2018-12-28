@@ -4,7 +4,7 @@
 
 We've organized for you to complete a client project. This is a great opportunity for you to be exposed to a **real** organization doing **real work** with **real data**.
 
-[New Light Technologies](https://www.newlight.com/) is an organization founded in 2003. After over a decade of research, New Light developed a carbon capture technology able to produce high-performance bioplastics from carbon emissions.  Their mission is to replace oil-based plastics with greenhouse gas-based bioplastics on a global scale, moving oil out of the world’s products, reducing material production costs, and reducing the amount of carbon in the air on a market-driven basis. They also do contracting work with various organizations, including FEMA (the Federal Emergency Management Agency), the U.S. Census Bureau, and The World Bank.
+[New Light Technologies](https://newlighttechnologies.com/) is an organization founded in 2003. After over a decade of research, New Light developed a carbon capture technology able to produce high-performance bioplastics from carbon emissions.  Their mission is to replace oil-based plastics with greenhouse gas-based bioplastics on a global scale, moving oil out of the world’s products, reducing material production costs, and reducing the amount of carbon in the air on a market-driven basis. They also do contracting work with various organizations, including FEMA (the Federal Emergency Management Agency), the U.S. Census Bureau, and The World Bank.
 
 Ran Goldblatt, our contact with NLT, is a remote sensing scientist and senior consultant. He has a strong background in geographic information systems (GIS) and leverages this knowledge when solving problems facing various agencies.
 
