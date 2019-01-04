@@ -164,7 +164,9 @@ The students will design and implement a web-tool or an app for rapid alert and 
 
 **Problem 12: Predicting Rooftop Quality and Integrity using Drone Image Data**
 
-If you are interested in working on this project, please contact Matt Brems directly. This data may not be publicly posted.
+The Island of Saint Lucia needs to prepare its homes for the next hurricane season. This tool will use remotely sensed drone images (RGB and elevation) along with GIS layers from OpenStreetMap and Charim to assess which homes are at highest risk and which homes might need strengthening interventions (i.e new rooftops, roof straps). The tool will provide the user the ability to click on a building (in the pilot city of Dennery) and see some basic characteristics of the house that could be helpful for the government preparing for the next storm.
+
+If you are interested in working on this project, please contact Matt Brems directly to obtain the data. This data may not be publicly posted.
 
 **Requirements**:
 For the purposes of a DSI project, you must meet a few technical requirements. They are:
