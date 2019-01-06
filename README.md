@@ -208,6 +208,28 @@ Your local instructor will divide your class into teams. Chat with them to find 
 
 ---
 
+### Presentations
+
+Each group will present their findings.
+
+Your presentation must include:
+- A summary of the problem you tackled.
+- A walkthrough of how you set out to solve the problem.
+- A demonstration of your solution. (i.e. You may demonstrate an app you developed, an example of how a model may be used, etc.)
+- A summary of any models you fit and, if applicable, their performance.
+- A brief discussion of limitations to your process. (i.e. data collection issues, missing values)
+- A brief discussion of next steps.
+
+Presentation requirements:
+- *Consider the audience!*
+- *As with presentations in the "real world," there is no required time limit.* Your presentation should be long enough to cover all relevant aspects of the problem, but not so long that it obscures the takeaways of the presentation. (Your group should likely aim for somewhere between 15 and 20 minutes, but it is possible that you may need a different amount of time for your presentation.)
+- Your presentation must include slides. (Google Slides, PowerPoint, Keynote, etc.)
+- Use visuals that are appropriately scaled and interpretable.
+- Make sure you provide clear conclusions/recommendations that follow logically from your analyses and narrative and answer your data science problem.
+- *Your presentation must also be recorded through Zoom so that it may be shared with the client.*
+
+---
+
 ### Consulting Project Feedback + Evaluation
 
 Data science is a field in which we apply data to solve real-world problems. Therefore, projects and presentations are means by which we can assess your ability to solve real-world problems in a data-driven manner.
