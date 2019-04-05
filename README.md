@@ -2,15 +2,22 @@
 
 ### Overview
 
-We've organized for you to complete a client project. This is a great opportunity for you to be exposed to a **real** organization doing **real work** with **real data**.
+We've organized for you to complete a client project. This is a great opportunity for you to be exposed to a **real organization** doing **real work** with **real data**.
 
-[New Light Technologies](https://www.linkedin.com/company/new-light-technologies) is an organization founded in 2003. After over a decade of research, New Light developed a carbon capture technology able to produce high-performance bioplastics from carbon emissions.  Their mission is to replace oil-based plastics with greenhouse gas-based bioplastics on a global scale, moving oil out of the world’s products, reducing material production costs, and reducing the amount of carbon in the air on a market-driven basis. They also do contracting work with various organizations, including FEMA (the Federal Emergency Management Agency), the U.S. Census Bureau, and The World Bank.
+**The Organization**:
 
-Ran Goldblatt, our contact with NLT, is a remote sensing scientist and senior consultant. He has a strong background in geographic information systems (GIS) and leverages this knowledge when solving problems facing various agencies.
+- [New Light Technologies](https://www.linkedin.com/company/new-light-technologies) is an organization founded in 2003. After over a decade of research, New Light developed a carbon capture technology able to produce high-performance bioplastics from carbon emissions.  Their mission is to replace oil-based plastics with greenhouse gas-based bioplastics on a global scale, moving oil out of the world’s products, reducing material production costs, and reducing the amount of carbon in the air on a market-driven basis. They also do contracting work with various organizations, including FEMA (the Federal Emergency Management Agency), USAID (the United States Agency for International Development), the U.S. Census Bureau, and The World Bank.
 
-**Problem**:
+- [Ran Goldblatt](https://newlighttechnologies.com/staff/ran-goldblatt/), our contact with NLT, is a remote sensing scientist and senior consultant. He has a strong background in geographic information systems (GIS) and leverages this knowledge when solving problems facing various agencies.
 
-NLT requested that our students complete projects surrounding emergency preparedness and economic analysis. In short summary, the twelve projects you may complete are:
+**The Work**:
+
+For this project, you will be doing work that focuses on: 
+- preparing for emergencies,
+- rapidly responding to emergencies, and/or 
+- estimating the economic impact of disasters.
+
+The goal is for you to leverage your skills to help solve real-world problems. NLT has identified eleven potential prompts of value to them. You may pick one and attempt to solve it. Alternatively, if you would like to edit the problem slightly (for example, picking a different data source) or combine multiple prompts together, you may do that as well!
 
 1. Leveraging Social Media to Map Disasters.
 2. Leveraging News and Media for Situational Awareness.
@@ -23,11 +30,14 @@ NLT requested that our students complete projects surrounding emergency prepared
 9. Using news outlets and/or social media to identify areas/neighborhoods with power outages.
 10. Using live police radio reports for real time identification of people needing assistance.
 11. Using Indeed or Glassdoor platforms together with number and type of affected businesses to estimate the expected economic loss (wages) due to a disaster.
-12. Using drone data to estimate rooftop quality and material classification.
 
-That's where you come in.
+**The Data**:
 
-For the next four weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, January 18**, we'll present our findings and deliver:
+For this project, you aren't given any data! You are given possible sources for data, but don't feel constrained by this. Be creative in where and how you gather data. Is there data easily downloadable into a .csv or .json file? Can you access an API? Do you need to build a scraper? (Be sure to consider any legal, regulatory, and ethical issues when accessing data!) As with the Reddit project, it's important to identify source(s) for your data early and gather as soon as possible.
+
+**This is where you come in**:
+
+For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, April 26**, we'll present our findings and deliver:
 1. A clean GitHub repo containing our reproducible results and analysis.
 2. A real-world demonstration of the product.
 3. Any documentation for running the code.
@@ -62,7 +72,10 @@ reference, or a KML file) with relevant information acquired from the tweet as a
 
 - Geo-referenced disaster-specific social media posts (with or without images).
 
-[Github Link for DSI-DC students' past work.](https://github.com/belencito27/Map_Disasters_Twitter)
+- [Github Link for DSI-DC students' past work.](https://github.com/belencito27/Map_Disasters_Twitter)
+- [Github Link for DSI-BOS students' past work.](https://github.com/dawngraham/power-outages)
+- [Github Link for DSI-LA students' past work.](https://github.com/csinatra/Twitter-Disaster-Repo)
+- [Github Link for DSI-NYC students' past work.](https://github.com/cameronbronstein/Project-4-New-Light-Technologies-Client-Project)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 
@@ -89,7 +102,8 @@ name of a city, etc.
 - News articles, journals, blog posts, videos from external media websites
 - Online forms of relevant disaster media
 
-
+- [Github Link for DSI-SF students' past work.](https://github.com/surajsakaram/NLT-Client-Project)
+- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Problem 3: Optimizing Evacuation Routes using Real-Time Traffic Information**
 
@@ -107,9 +121,9 @@ distance between origin and destination and propose an optimal route to the dest
 affect travel and accessibility.
 - The output can be either tabular (e.g. allow for search of names of closed roads) or geospatial (e.g. produce a map of real-time road closures).
 
-[Github Link for DSI-DC students' past work.](https://github.com/Celis1/Project-5)
+- [Github Link for DSI-DC students' past work.](https://github.com/Celis1/Project-5)
+- [Github Link for DSI-SEA students' past work.](https://github.com/balak4/Optimizing-Evac-Routes)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
-
 
 **Problem 4: Extracting Building Values from Zillow**
 
@@ -121,7 +135,9 @@ affect travel and accessibility.
 - The tool will allow the user to automatically search for the mean, median, min, max and average value of the properties in each zip code area.
 - The objective is not to download the database from these sources. Rather, it should allow the user to feed the code with a list of affected areas (zip codes) as input, and retrieve the current (or historical, annual, monthly, quarterly) property values.
 
-[Github Link for DSI-DC students' past work.](https://github.com/tbacas/Zillow-Disaster-Estimates)
+- [Github Link for DSI-DC students' past work.](https://github.com/tbacas/Zillow-Disaster-Estimates)
+- [Github Link for DSI-ATL students' past work.](https://github.com/katychow/DSI_Project4_Zipcodes)
+- [Github Link for DSI-BOS students' past work.](https://github.com/hixjas/Project-4-Zillow)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 *Desired Deliverables:*
@@ -136,23 +152,44 @@ affect travel and accessibility.
 **Problem 5: Utilizing Social Media to alert about new disasters and their nature**
 
 *Problem Statement:*
-The students will design and implement a web-tool or an app for rapid alert and notification about a disastrous event, in close to real time. The tool will alert about the event, similar, for example, to earthquake or tsunami warnings that appear on Google`s home page immediately after a major disaster. While traditional methods for alerting on such events rely on official information derived from official sources (e.g. USGS), this tool will utilize social media activity to identify these events and alert when an event first occurs.
+The students will design and implement a web-tool or an app for rapid alert and notification about a disastrous event, in close to real time. The tool will alert about the event, similar, for example, to earthquake or tsunami warnings that appear on Google's home page immediately after a major disaster. While traditional methods for alerting on such events rely on official information derived from official sources (e.g. USGS), this tool will utilize social media activity to identify these events and alert when an event first occurs.
+
+- [Github Link for DSI-ATX students' past work.](https://github.com/eamonious/disaster-tweet-classification)
+- [Github Link for DSI-DC students' past work.](https://github.com/katerdowdy/twitter_disaster)
+- [Github Link for DSI-NYC students' past work.](https://github.com/EdithIyer/Harnessing-ML-for-Natural-Disaster-Alerts)
+- [Github Link for DSI-SF students' past work.](https://github.com/rkkwan/disaster-rapid-alert)
+- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Problem 6: Using Google Street View as a baseline for damage assessment.**
 
 *Problem Statement:* During the recovery phase immediately following a disaster, FEMA performs damage assessment “on the ground” to assess the level of damage caused to residential parcels and to critical infrastructure. To assure an accurate estimation of the damage, it is important to understand the condition of the structures prior to the event. To help and guide the damage assessment efforts following a disaster and to assist the surveyors identify the structures of interest, this tool (a web-app or a mobile app) will expect to get, as an input, a list of addresses. It will retrieve screen shots of the structures from Google Street View. The students will design a damage assessment form, which, in addition to relevant information about the level of damage to the structures, will also provide a pre-event photo of the assessed structure.
 
+- [Github Link for DSI-DC students' past work.](https://github.com/Mauriekathan/Image_Geo_Team_Street_View)
+- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
+
 **Problem 7: Utilizing Yelp cost estimates for estimating neighborhood affluency**
 
 *Problem Statement:* This tool will estimate the affluence of a neighborhood based on the number of $ of businesses and services (according to Yelp) in a given neighborhood. ($, $$, $$$) This tool will expect to get, as an input, a list of zip codes or names of neighborhoods and will estimate the wealth of the locality. While traditional methods typically estimate wealth of a locality based on demographic characteristics (e.g. income or unemployment rate), the novelty of this approach is in its use of big data related to commercial activity and cost of product and services as an indicator for affluency.  
+
+- [Github Link for DSI-DEN students' past work.](https://github.com/rbkim1990/yelp-client-project)
+- [Github Link for DSI-LA students' past work.](https://github.com/jlian014/Clientproject_DSI_LA6)
+- [Github Link for DSI-NYC students' past work.](https://github.com/twludlow/ga_project_4)
+- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
+
 
 **Problem 8: Utilizing Yelp data to estimate the number of businesses in a given locality and categorizing them according to FEMA's seven lifelines**
 
 *Problem Statement:* Prior to and during a disaster, it is important to understand the projected and actual effects of the event on the community, including its economic effects on critical services. FEMA has identified seven “lifelines” that require attention during a disaster: (1) safety and security; (2) Food, water, sheltering; (3) Health and medical; (4) Energy (power, fuel); (5) Communications; (6) Transportation; (7) hazardous waste. This tool will utilize Yelp to estimate the effects of the event on each of the seven lifelines. This can include the number of businesses or services in each category or even, if available, their status (if provided by users and reviews in Yelp). The tool will search for relevant data and categorize it according to a list of impacted neighborhoods or a list of affected zip codes. It will provide an estimation of the potential impact of the event, at least according to the data available in Yelp.
 
+- [Github Link for DSI-CHI students' past work.](https://github.com/jwasham12/Client-Project)
+- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
+
 **Problem 9: Using news outlets or social media to identify areas or neighborhoods with power outages.**
 
 *Problem Statement:* During a disaster, residential areas often experience massive power outages, that in many cases last for days. Traditional methods to map power outages include live feeds and data that is provided by major utility companies as well as on satellite data that capture the extent of light emitted at night.  This tool will utilize news feeds and/or posts on social media to identify “hot spots” of concern and areas suffering from power outages (assuming that these posts are reported via social media apps on mobile phone). Following an event, the tool will scan relevant news or social media websites to identify localities likely to suffer from power outage.
+
+- [Github Link for DSI-NYC students' past work.](https://github.com/boom-deva/FEMA-Power-Outage-Hotspot-Detection)
+- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Problem 10: Using live police radio reports for real time identification of people needing assistance.**
 
@@ -162,11 +199,10 @@ The students will design and implement a web-tool or an app for rapid alert and 
 
 *Problem Statement:* This tool will rely on websites that provide employment information and sector-specific wage estimations (such as Glassdoor and Indeed) to project the economic loss (wage loss) due to a disaster. Based on the type of businesses and services in a given affected area and/or using supplementary demographic data (for example, from the Census Burau of Statistics), the tool will provide an estimation about the projected economic loss in a given locality based on the reported or estimated wage loss in the locality.
 
-**Problem 12: Predicting Rooftop Quality and Integrity using Drone Image Data**
-
-The Island of Saint Lucia needs to prepare its homes for the next hurricane season. This tool will use remotely sensed drone images (RGB and elevation) along with GIS layers from OpenStreetMap and Charim to assess which homes are at highest risk and which homes might need strengthening interventions (i.e new rooftops, roof straps). The tool will provide the user the ability to click on a building (in the pilot city of Dennery) and see some basic characteristics of the house that could be helpful for the government preparing for the next storm.
-
-If you are interested in working on this project, please contact Matt Brems directly to obtain the data. This data may not be publicly posted.
+- [Github Link for DSI-BOS students' past work.](https://github.com/EricPmWong/NewLightTechQ11)
+- [Github Link for DSI-DC students' past work.](https://github.com/whiteashleye/EconomicLoss_NaturalDisaster)
+- [Github Link for DSI-SF students' past work.](https://github.com/mitchdshawn/disaster_income_loss)
+- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Requirements**:
 For the purposes of a DSI project, you must meet a few technical requirements. They are:
@@ -183,9 +219,9 @@ For the purposes of a DSI project, you must meet a few technical requirements. T
     - I should be able to `Restart & Run All` in your notebook(s) and see that the _exact same_ results are reproduced.
     - To check that everything worked properly, you may consider forking your own repo to a different location on your computer and checking that all notebooks can run properly from top to bottom.
 
-3) You may build _either_ a supervised learning model _or_ conduct an unsupervised learning analysis. Bear in mind that the value you provide to New Light Technologies may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
+3) Bear in mind that the value you provide to New Light Technologies may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
 
-**Deadline**: January 18th, 2019.
+**Deadline**: April 26th, 2019.
 
 **Questions**: Questions should be sent to your local instructor; questions that need to go to the client should be directed to Matt Brems via email (matt.brems@ga.co). Questions should be specific, brief, and formatted so that they can be directly sent to our contacts at NLT.
 > This is a good practice to develop! When contacting a boss or a client, you should make your question as easy as possible to answer. Consider the following two examples:
@@ -226,7 +262,7 @@ Presentation requirements:
 - Your presentation must include slides. (Google Slides, PowerPoint, Keynote, etc.)
 - Use visuals that are appropriately scaled and interpretable.
 - Make sure you provide clear conclusions/recommendations that follow logically from your analyses and narrative and answer your data science problem.
-- *Your presentation must also be recorded through Zoom so that it may be shared with the client.*
+- *Your presentation must also be recorded so that it may be shared with the client.*
 
 ---
 
