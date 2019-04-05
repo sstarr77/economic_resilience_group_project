@@ -33,7 +33,14 @@ The goal is for you to leverage your skills to help solve real-world problems. N
 
 **The Data**:
 
-For this project, you aren't given any data! You are given possible sources for data, but don't feel constrained by this. Be creative in where and how you gather data. Is there data easily downloadable into a .csv or .json file? Can you access an API? Do you need to build a scraper? (Be sure to consider any legal, regulatory, and ethical issues when accessing data!) As with the Reddit project, it's important to identify source(s) for your data early and gather as soon as possible.
+For this project, you aren't given any data! You are given *possible* sources for data, but don't feel limited by this. Be creative in where and how you gather data!
+- Is there data easily downloadable into a .csv or .json file? 
+- Can you get access to a database of data?
+- Can you access an API? 
+- Do you need to build a scraper? 
+Be sure to consider any legal, regulatory, and ethical issues when accessing data!
+
+As with the Reddit project, it's important to identify source(s) for your data early and gather as soon as possible, as this might be a large bottleneck toward completing a project.
 
 **This is where you come in**:
 
