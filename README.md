@@ -44,7 +44,7 @@ As with the Reddit project, it's important to identify source(s) for your data e
 
 **This is where you come in**:
 
-For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, April 26**, we'll present our findings and deliver:
+For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, August 2**, we'll present our findings and deliver:
 1. A clean GitHub repo containing our reproducible results and analysis.
 2. A real-world demonstration of the product.
 3. Any documentation for running the code.
