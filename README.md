@@ -17,7 +17,7 @@ For this project, you will be doing work that focuses on:
 - rapidly responding to emergencies, and/or 
 - estimating the economic impact of disasters.
 
-The goal is for you to leverage your skills to help solve real-world problems. NLT has identified eleven potential prompts of value to them. You may pick one and attempt to solve it. Alternatively, if you would like to edit the problem slightly (for example, picking a different data source) or combine multiple prompts together, you may do that as well!
+The goal is for you to leverage your skills to help solve real-world problems. NLT has identified twelve potential prompts of value to them. You may pick one and attempt to solve it. Alternatively, if you would like to edit the problem slightly (for example, picking a different data source) or combine multiple prompts together, you may do that as well!
 
 1. Leveraging Social Media to Map Disasters.
 2. Leveraging News and Media for Situational Awareness.
@@ -45,7 +45,7 @@ As with the Reddit project, it's important to identify source(s) for your data e
 
 **This is where you come in**:
 
-For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, August 2**, we'll present our findings and deliver:
+For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, November 8**, we'll present our findings and deliver:
 1. A clean GitHub repo containing our reproducible results and analysis.
 2. A real-world demonstration of the product.
 3. Any documentation for running the code.
@@ -83,9 +83,12 @@ reference, or a KML file) with relevant information acquired from the tweet as a
 - [Github Link for DSI-DC students' past work.](https://github.com/belencito27/Map_Disasters_Twitter)
 - [Github Link (2) for DSI-DC students' past work.](https://github.com/TungPhung/Twitter-Natural-Disaster-Mapping)
 - [Github Link for DSI-BOS students' past work.](https://github.com/dawngraham/power-outages)
+- [Github Link (2) for DSI-BOS students' past work.](https://github.com/TengCXXI/Mapping-Disasters-with-Social-Media)
 - [Github Link for DSI-LA students' past work.](https://github.com/csinatra/Twitter-Disaster-Repo)
 - [Github Link for DSI-NYC students' past work.](https://github.com/cameronbronstein/Project-4-New-Light-Technologies-Client-Project)
+- [Github Link (2) for DSI-NYC students' past work.](https://github.com/ondovj/mapping_natural_disasters)
 - [Github Link for DSI-SF students' past work.](https://github.com/sgodfrey66/Camp_Fire_Analysis)
+- [Github Link (2) for DSI-SF students' past work.](https://github.com/pwalesdi/Mapping_Disasters)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 
@@ -112,11 +115,12 @@ name of a city, etc.
 - News articles, journals, blog posts, videos from external media websites
 - Online forms of relevant disaster media
 
+- [Github Link for DSI-BOS students' past work.](https://github.com/keencyclist/disaster)
+- [Github Link (2) for DSI-BOS students' past work.](https://github.com/mariellemarcus/New-Light-Technologies-Project)
+- [Github Link for DSI-NYC students' past work.](https://github.com/RMExe/disaster-web/)
 - [Github Link for DSI-SF students' past work.](https://github.com/surajsakaram/NLT-Client-Project)
 - [Github Link for DSI-SF (2) students' past work.](https://github.com/billypyu/Project-4-Disaster-Classification-Leveraging-News-and-Media-for-Situational-Awareness)
 - [Github Link for DSI-SF (3) students' past work.](https://github.com/tmckee35/Team-4-Client-Project)
-- [Github Link for DSI-NYC students' past work.](https://github.com/RMExe/disaster-web/)
-- [Github Link for DSI-BOS students' past work.](https://github.com/keencyclist/disaster)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Problem 3: Optimizing Evacuation Routes using Real-Time Traffic Information**
@@ -135,12 +139,16 @@ distance between origin and destination and propose an optimal route to the dest
 affect travel and accessibility.
 - The output can be either tabular (e.g. allow for search of names of closed roads) or geospatial (e.g. produce a map of real-time road closures).
 
+- [Github Link for DSI-ATX students' past work.](https://github.com/DCapella/evacuation-routes)
+- [Github Link for DSI-BOS students' past work.](https://github.com/rkelsey1207/Project5_evacroutes_BOS)
 - [Github Link for DSI-DC students' past work.](https://github.com/Celis1/Project-5)
 - [Github Link for DSI-DC (2) students' past work.](https://github.com/ariellem2/Disaster_Response_Maps)
-- [Github Link for DSI-SEA students' past work.](https://github.com/balak4/Optimizing-Evac-Routes)
-- [Github Link for DSI-ATX students' past work.](https://github.com/DCapella/evacuation-routes)
-- [Github Link for DSI-NYC students' past work.](https://github.com/jasminevasandani/Road_Closures_NLP_Modeling_Social_Media_News)
+- [Github Link for DSI-DC (3) students' past work.](https://github.com/templecm4y/GA-Twitter-Road-Closures-Client-Project)
 - [Github Link for DSI-DEN students' past work.](https://github.com/stuckeyj/DenProject4HurricaneFatalities)
+- [Github Link for DSI-LA students' past work.](https://github.com/rachelkoenig10/Mapping-Road-Closures-Using-Real-Time-Traffic-Information)
+- [Github Link for DSI-NYC students' past work.](https://github.com/jasminevasandani/Road_Closures_NLP_Modeling_Social_Media_News)
+- [Github Link for DSI-SEA students' past work.](https://github.com/balak4/Optimizing-Evac-Routes)
+- [Github Link for DSI-SF students' past work.](https://github.com/st-tse/miami_road_closure)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Problem 4: Extracting Building Values from Zillow**
@@ -153,11 +161,13 @@ affect travel and accessibility.
 - The tool will allow the user to automatically search for the mean, median, min, max and average value of the properties in each zip code area.
 - The objective is not to download the database from these sources. Rather, it should allow the user to feed the code with a list of affected areas (zip codes) as input, and retrieve the current (or historical, annual, monthly, quarterly) property values.
 
-- [Github Link for DSI-DC students' past work.](https://github.com/tbacas/Zillow-Disaster-Estimates)
-- [Github Link for DSI-DC (2) students' past work.](https://github.com/zeeemo/Disaster-Estimates)
 - [Github Link for DSI-ATL students' past work.](https://github.com/katychow/DSI_Project4_Zipcodes)
 - [Github Link for DSI-BOS students' past work.](https://github.com/hixjas/Project-4-Zillow)
+- [Github Link for DSI-DC students' past work.](https://github.com/tbacas/Zillow-Disaster-Estimates)
+- [Github Link for DSI-DC (2) students' past work.](https://github.com/zeeemo/Disaster-Estimates)
+- [Github Link for DSI-DC (3) students' past work.](https://github.com/jhuessy/ga_client_project_zillow)
 - [Github Link for DSI-NYC students' past work.](https://github.com/cbratkovics/damage_estimator)
+- [Github Link for DSI-NYC (2) students' past work.](https://github.com/rows317/DSI-8-Client-Project/blob/master/README.md)
 - [Github Link for DSI-SEA students' past work.](https://github.com/dsteffan/mount_rainier_disaster_estimate)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
@@ -179,6 +189,8 @@ The students will design and implement a web-tool or an app for rapid alert and 
 - [Github Link for DSI-ATX (2) students' past work.](https://github.com/newtonsspawn/project_4)
 - [Github Link for DSI-DC students' past work.](https://github.com/katerdowdy/twitter_disaster)
 - [Github Link for DSI-NYC students' past work.](https://github.com/EdithIyer/Harnessing-ML-for-Natural-Disaster-Alerts)
+- [Github Link for DSI-NYC (2) students' past work.](https://github.com/klejohnson/Client_Project)
+- [Github Link for DSI-SEA students' past work.]https://github.com/bkumar33/Group_client_project)
 - [Github Link for DSI-SF students' past work.](https://github.com/rkkwan/disaster-rapid-alert)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
@@ -186,18 +198,27 @@ The students will design and implement a web-tool or an app for rapid alert and 
 
 *Problem Statement:* During the recovery phase immediately following a disaster, FEMA performs damage assessment “on the ground” to assess the level of damage caused to residential parcels and to critical infrastructure. To assure an accurate estimation of the damage, it is important to understand the condition of the structures prior to the event. To help and guide the damage assessment efforts following a disaster and to assist the surveyors identify the structures of interest, this tool (a web-app or a mobile app) will expect to get, as an input, a list of addresses. It will retrieve screen shots of the structures from Google Street View. The students will design a damage assessment form, which, in addition to relevant information about the level of damage to the structures, will also provide a pre-event photo of the assessed structure.
 
+- [Github Link for DSI-ATX students' past work.](https://github.com/DataPointChris/newlight_satellite_image_detection)
+- [Github Link for DSI-BOS students' past work.](https://github.com/nmcalow/Project_5_FEMA)
 - [Github Link for DSI-DC students' past work.](https://github.com/Mauriekathan/Image_Geo_Team_Street_View)
 - [Github Link for DSI-DC (2) students' past work.](https://github.com/wkarney/street_viewing_for_FEMA)
+- [Github Link for DSI-DC (3) students' past work.](https://github.com/opacichjj/FEMA-PDA-and-Route-Optimizer)
+- [Github Link for DSI-LA students' past work.](https://github.com/valarn/FEMA-Damage-Assessment-API-Python)
+- [Github Link for DSI-SF students' past work.](https://github.com/miecky/project-client_project)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Problem 7: Utilizing Yelp cost estimates for estimating neighborhood affluency**
 
 *Problem Statement:* This tool will estimate the affluence of a neighborhood based on the number of $ of businesses and services (according to Yelp) in a given neighborhood. ($, $$, $$$) This tool will expect to get, as an input, a list of zip codes or names of neighborhoods and will estimate the wealth of the locality. While traditional methods typically estimate wealth of a locality based on demographic characteristics (e.g. income or unemployment rate), the novelty of this approach is in its use of big data related to commercial activity and cost of product and services as an indicator for affluency.  
 
+- [Github Link for DSI-BOS students' past work.](https://github.com/taylorjsimpson/GA_DSIBos_Yelp_Project5)
+- [Github Link for DSI-CHI students' past work.](https://github.com/brmcdonnell/estimating_affluence)
 - [Github Link for DSI-DEN students' past work.](https://github.com/rbkim1990/yelp-client-project)
 - [Github Link for DSI-LA students' past work.](https://github.com/jlian014/Clientproject_DSI_LA6)
 - [Github Link for DSI-LA (2) students' past work.](https://github.com/hovikgas/hovieco)
+- [Github Link for DSI-LA (3) students' past work.](https://github.com/irinhwng/Yelp)
 - [Github Link for DSI-NYC students' past work.](https://github.com/twludlow/ga_project_4)
+- [Github Link for DSI-NYC (2) students' past work.](https://github.com/Shaddyjr/predicting_affluence_using_yelp)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 
@@ -205,9 +226,11 @@ The students will design and implement a web-tool or an app for rapid alert and 
 
 *Problem Statement:* Prior to and during a disaster, it is important to understand the projected and actual effects of the event on the community, including its economic effects on critical services. FEMA has identified seven “lifelines” that require attention during a disaster: (1) safety and security; (2) Food, water, sheltering; (3) Health and medical; (4) Energy (power, fuel); (5) Communications; (6) Transportation; (7) hazardous waste. This tool will utilize Yelp to estimate the effects of the event on each of the seven lifelines. This can include the number of businesses or services in each category or even, if available, their status (if provided by users and reviews in Yelp). The tool will search for relevant data and categorize it according to a list of impacted neighborhoods or a list of affected zip codes. It will provide an estimation of the potential impact of the event, at least according to the data available in Yelp.
 
-- [Github Link for DSI-CHI students' past work.](https://github.com/jwasham12/Client-Project)
-- [Github Link for DSI-BOS students' past work.](https://github.com/micahluedtke/FEMA_lifelines)
 - [Github Link for DSI-ATL students' past work.](https://github.com/awharmon/FEMA-Lifelines-Categorization-for-Disaster-Response)
+- [Github Link for DSI-ATX students' past work.](https://github.com/adriancampos1/GA_DSI8_FEMA_Lifelines)
+- [Github Link for DSI-BOS students' past work.](https://github.com/micahluedtke/FEMA_lifelines)
+- [Github Link for DSI-CHI students' past work.](https://github.com/jwasham12/Client-Project)
+- [Github Link for DSI-DEN students' past work.](https://github.com/meldev00/FEMA_disaster_tool)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Problem 9: Using news outlets or social media to identify areas or neighborhoods with power outages.**
@@ -222,6 +245,9 @@ The students will design and implement a web-tool or an app for rapid alert and 
 **Problem 10: Using live police radio reports for real time identification of people needing assistance.**
 
 *Problem Statement:* Currently, FEMA identifies areas that require immediate attention (for search and rescue efforts) either by responding to reports and requests put directly by the public or, recently, using social media posts. This tool will utilize live police radio reports to identify hot spots representing locations of people who need immediate attention. The tool will flag neighborhoods or specific streets where the police and first-respondents were called to provide assistance related to the event.
+
+- [Github Link for DSI-ATL students' past work.](https://github.com/delvakwa/police_radio_to_mapping)
+- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 **Problem 11: Using Indeed or Glassdoor together with number and type of affected businesses to estimate the expected economic loss due to a disaster**
 
@@ -269,7 +295,7 @@ For the purposes of a DSI project, you must meet a few technical requirements. T
 
 3) Bear in mind that the value you provide to New Light Technologies may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
 
-**Deadline**: August 2, 2019.
+**Deadline**: November 8, 2019.
 
 **Questions**: Questions should be sent to your local instructor; questions that need to go to the client should be directed to Matt Brems via email (matt.brems@ga.co). Questions should be specific, brief, and formatted so that they can be directly sent to our contacts at NLT.
 > This is a good practice to develop! When contacting a boss or a client, you should make your question as easy as possible to answer. Consider the following two examples:
