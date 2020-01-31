@@ -31,6 +31,12 @@ The goal is for you to leverage your skills to help solve real-world problems. N
 10. Using live police radio reports for real time identification of people needing assistance.
 11. Using Indeed or Glassdoor platforms together with number and type of affected businesses to estimate the expected economic loss (wages) due to a disaster.
 12. Leveraging News Sources and Social Media to Identify Major Historic Flood Events.
+13. Crowdsourcing Damage Photos
+14. Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery
+15. Updating Shelter Status
+16. Identifying Misinformation in Disaster-Related Social Media Posts
+17. Extracting Flood Depths from Imagery
+18. Improve Slum Area Identification through Real-Estate Data
 
 **The Data**:
 
@@ -385,7 +391,7 @@ Mapping of informal settlements with satellite imagery is a long-standing practi
 - Open source code for full process from gathering data to calculating and mapping the real estate to population density ratio
 - Proof of concept or pilot from a city or collection of cities.
 
-**Requirements**:
+## Requirements
 For the purposes of a DSI project, you must meet a few technical requirements. They are:
 1)  A `README.md` file in your project repo. Note that `README` files are automatically rendered by GitHub when you view a repo. Your README should contain:
     - A problem statement.
