@@ -22,21 +22,21 @@ The goal is for you to leverage your skills to help solve real-world problems. N
 1. Leveraging Social Media to Map Disasters.
 2. Leveraging News and Media for Situational Awareness.
 3. Optimizing Evacuation Routes using Real-Time Traffic Information.
-4. Extracting Building Values from Zillow.
-5. Utilizing Social Media for a rapid alert about new disasters.
-6. Using Google Street View to retrieve (pre-event) photos of structures.
-7. Utilizing Yelp cost estimates ($, $$, $$$) for estimating neighborhood affluence.
-8. Utilizing Yelp data to estimate the number of businesses in a given locality and categorize them by lifeline.
-9. Using news outlets and/or social media to identify areas/neighborhoods with power outages.
-10. Using live police radio reports for real time identification of people needing assistance.
-11. Using Indeed or Glassdoor platforms together with number and type of affected businesses to estimate the expected economic loss (wages) due to a disaster.
-12. Leveraging News Sources and Social Media to Identify Major Historic Flood Events.
-13. Crowdsourcing Damage Photos
-14. Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery
-15. Updating Shelter Status
-16. Identifying Misinformation in Disaster-Related Social Media Posts
-17. Extracting Flood Depths from Imagery
-18. Improve Slum Area Identification through Real-Estate Data
+4. Using Google Street View to retrieve (pre-event) photos of structures.
+5. Using news outlets and/or social media to identify areas/neighborhoods with power outages.
+6. Using live police radio reports for real time identification of people needing assistance.
+7. Using Indeed or Glassdoor platforms together with number and type of affected businesses to estimate the expected economic loss (wages) due to a disaster.
+8. Crowdsourcing Damage Photos
+9. Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery
+10. Updating Shelter Status
+11. Identifying Misinformation in Disaster-Related Social Media Posts
+12. Extracting Flood Depths from Imagery
+13. Improve Slum Area Identification through Real-Estate Data
+14. Sentiment Analysis of COVID-19 Social Media Posts
+15. Mapping Hotspots of COVID-19 Cases
+16. Identifying Areas At Risk for COVID-19 and Other Natural Disasters
+17. Mapping Available Commodities During the COVID-19 Pandemic
+18. Chicago Case Study: Hotel Availability for Quarantine
 
 **The Data**:
 
@@ -51,7 +51,7 @@ As with the Reddit project, it's important to identify source(s) for your data e
 
 **This is where you come in**:
 
-For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, February 21**, we'll present our findings and deliver:
+For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, May 15**, we'll present our findings and deliver:
 1. A clean GitHub repo containing our reproducible results and analysis.
 2. A real-world demonstration of the product.
 3. Any documentation for running the code.
@@ -167,52 +167,8 @@ affect travel and accessibility.
 - [Github Link for DSI-SF students' past work.](https://github.com/st-tse/miami_road_closure)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 4: Extracting Building Values from Zillow**
 
-*Problem Statement:*
-- During a disaster, it is important to model and estimate the potential or forecasted effect of the event, including the projected/forecasted damage.
-- Existing indicators of forecasted damage include number of structures within the affected area, number of people in the area, number of households, demographics of the impacted population, etc.
-- This project will add an additional indicator: the value of the properties in the affected area. Property values can be estimated according to the market price of houses.
-- In this project, the students will leverage property market prices published in different real-estate websites (e.g. Zillow), according to zip codes.
-- The tool will allow the user to automatically search for the mean, median, min, max and average value of the properties in each zip code area.
-- The objective is not to download the database from these sources. Rather, it should allow the user to feed the code with a list of affected areas (zip codes) as input, and retrieve the current (or historical, annual, monthly, quarterly) property values.
-
-*Desired Deliverables:*
-- A short write-up describing the project.
-- An open source code (or a simple API) which takes, as input, a list of zip codes, and outputs the mean, median, min and max property values in these areas
-
-*Descriptions of input data: Real-estate website*
-- Zillow
-- Trulia
-- Realtor.com
-
-- [Github Link for DSI-ATL students' past work.](https://github.com/katychow/DSI_Project4_Zipcodes)
-- [Github Link for DSI-BOS students' past work.](https://github.com/hixjas/Project-4-Zillow)
-- [Github Link for DSI-DC students' past work.](https://github.com/tbacas/Zillow-Disaster-Estimates)
-- [Github Link for DSI-DC (2) students' past work.](https://github.com/zeeemo/Disaster-Estimates)
-- [Github Link for DSI-DC (3) students' past work.](https://github.com/jhuessy/ga_client_project_zillow)
-- [Github Link for DSI-NYC students' past work.](https://github.com/cbratkovics/damage_estimator)
-- [Github Link for DSI-NYC (2) students' past work.](https://github.com/rows317/DSI-8-Client-Project/blob/master/README.md)
-- [Github Link for DSI-SEA students' past work.](https://github.com/dsteffan/mount_rainier_disaster_estimate)
-- [Github Link for DSI-SF students' past work.](https://github.com/justinaugust/what-value-what-damage)
-- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
-
-**Problem 5: Utilizing Social Media to alert about new disasters and their nature**
-
-*Problem Statement:*
-The students will design and implement a web-tool or an app for rapid alert and notification about a disastrous event, in close to real time. The tool will alert about the event, similar, for example, to earthquake or tsunami warnings that appear on Google's home page immediately after a major disaster. While traditional methods for alerting on such events rely on official information derived from official sources (e.g. USGS), this tool will utilize social media activity to identify these events and alert when an event first occurs.
-
-- [Github Link for DSI-ATX students' past work.](https://github.com/eamonious/disaster-tweet-classification)
-- [Github Link for DSI-ATX (2) students' past work.](https://github.com/newtonsspawn/project_4)
-- [Github Link for DSI-DC students' past work.](https://github.com/katerdowdy/twitter_disaster)
-- [Github Link for DSI-LA students' past work.](https://github.com/mayjordata/Project-TeamAlert)
-- [Github Link for DSI-NYC students' past work.](https://github.com/EdithIyer/Harnessing-ML-for-Natural-Disaster-Alerts)
-- [Github Link for DSI-NYC (2) students' past work.](https://github.com/klejohnson/Client_Project)
-- [Github Link for DSI-SEA students' past work.]https://github.com/bkumar33/Group_client_project)
-- [Github Link for DSI-SF students' past work.](https://github.com/rkkwan/disaster-rapid-alert)
-- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
-
-**Problem 6: Using Google Street View as a baseline for damage assessment.**
+**Problem 4: Using Google Street View as a baseline for damage assessment.**
 
 *Problem Statement:* During the recovery phase immediately following a disaster, FEMA performs damage assessment “on the ground” to assess the level of damage caused to residential parcels and to critical infrastructure. To assure an accurate estimation of the damage, it is important to understand the condition of the structures prior to the event. To help and guide the damage assessment efforts following a disaster and to assist the surveyors identify the structures of interest, this tool (a web-app or a mobile app) will expect to get, as an input, a list of addresses. It will retrieve screen shots of the structures from Google Street View. The students will design a damage assessment form, which, in addition to relevant information about the level of damage to the structures, will also provide a pre-event photo of the assessed structure.
 
@@ -226,35 +182,7 @@ The students will design and implement a web-tool or an app for rapid alert and 
 - [Github Link for DSI-SF students' past work.](https://github.com/miecky/project-client_project)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 7: Utilizing Yelp cost estimates for estimating neighborhood affluency**
-
-*Problem Statement:* This tool will estimate the affluence of a neighborhood based on the number of $ of businesses and services (according to Yelp) in a given neighborhood. ($, $$, $$$) This tool will expect to get, as an input, a list of zip codes or names of neighborhoods and will estimate the wealth of the locality. While traditional methods typically estimate wealth of a locality based on demographic characteristics (e.g. income or unemployment rate), the novelty of this approach is in its use of big data related to commercial activity and cost of product and services as an indicator for affluency.  
-
-- [Github Link for DSI-BOS students' past work.](https://github.com/taylorjsimpson/GA_DSIBos_Yelp_Project5)
-- [Github Link for DSI-CHI students' past work.](https://github.com/brmcdonnell/estimating_affluence)
-- [Github Link for DSI-DEN students' past work.](https://github.com/rbkim1990/yelp-client-project)
-- [Github Link for DSI-LA students' past work.](https://github.com/jlian014/Clientproject_DSI_LA6)
-- [Github Link for DSI-LA (2) students' past work.](https://github.com/hovikgas/hovieco)
-- [Github Link for DSI-LA (3) students' past work.](https://github.com/irinhwng/Yelp)
-- [Github Link for DSI-LA (4) students' past work.](https://github.com/aejsong/Predicting-Neighborhood-Affluence-with-Yelp)
-- [Github Link for DSI-NYC students' past work.](https://github.com/twludlow/ga_project_4)
-- [Github Link for DSI-NYC (2) students' past work.](https://github.com/Shaddyjr/predicting_affluence_using_yelp)
-- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
-
-
-**Problem 8: Utilizing Yelp data to estimate the number of businesses in a given locality and categorizing them according to FEMA's seven lifelines**
-
-*Problem Statement:* Prior to and during a disaster, it is important to understand the projected and actual effects of the event on the community, including its economic effects on critical services. FEMA has identified seven “lifelines” that require attention during a disaster: (1) safety and security; (2) Food, water, sheltering; (3) Health and medical; (4) Energy (power, fuel); (5) Communications; (6) Transportation; (7) hazardous waste. This tool will utilize Yelp to estimate the effects of the event on each of the seven lifelines. This can include the number of businesses or services in each category or even, if available, their status (if provided by users and reviews in Yelp). The tool will search for relevant data and categorize it according to a list of impacted neighborhoods or a list of affected zip codes. It will provide an estimation of the potential impact of the event, at least according to the data available in Yelp.
-
-- [Github Link for DSI-ATL students' past work.](https://github.com/awharmon/FEMA-Lifelines-Categorization-for-Disaster-Response)
-- [Github Link for DSI-ATX students' past work.](https://github.com/adriancampos1/GA_DSI8_FEMA_Lifelines)
-- [Github Link for DSI-BOS students' past work.](https://github.com/micahluedtke/FEMA_lifelines)
-- [Github Link for DSI-CHI students' past work.](https://github.com/jwasham12/Client-Project)
-- [Github Link for DSI-DEN students' past work.](https://github.com/meldev00/FEMA_disaster_tool)
-- [Github Link for DSI-DC students' past work.](https://github.com/k10jo01/fema_lifeline_impact)
-- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
-
-**Problem 9: Using news outlets or social media to identify areas or neighborhoods with power outages.**
+**Problem 5: Using news outlets or social media to identify areas or neighborhoods with power outages.**
 
 *Problem Statement:* During a disaster, residential areas often experience massive power outages, that in many cases last for days. Traditional methods to map power outages include live feeds and data that is provided by major utility companies as well as on satellite data that capture the extent of light emitted at night.  This tool will utilize news feeds and/or posts on social media to identify “hot spots” of concern and areas suffering from power outages (assuming that these posts are reported via social media apps on mobile phone). Following an event, the tool will scan relevant news or social media websites to identify localities likely to suffer from power outage.
 
@@ -265,7 +193,7 @@ The students will design and implement a web-tool or an app for rapid alert and 
 - [Github Link for DSI-NYC (4) students' past work.](https://github.com/PeterGarcia95/DisasterRelief)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 10: Using live police radio reports for real time identification of people needing assistance.**
+**Problem 6: Using live police radio reports for real time identification of people needing assistance.**
 
 *Problem Statement:* Currently, FEMA identifies areas that require immediate attention (for search and rescue efforts) either by responding to reports and requests put directly by the public or, recently, using social media posts. This tool will utilize live police radio reports to identify hot spots representing locations of people who need immediate attention. The tool will flag neighborhoods or specific streets where the police and first-respondents were called to provide assistance related to the event.
 
@@ -274,7 +202,7 @@ The students will design and implement a web-tool or an app for rapid alert and 
 - [Github Link for DSI-SF students' past work.](https://github.com/GWilson97/san_francisco_dispatch_audio_mapping)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 11: Using Indeed or Glassdoor together with number and type of affected businesses to estimate the expected economic loss due to a disaster**
+**Problem 7: Using Indeed or Glassdoor together with number and type of affected businesses to estimate the expected economic loss due to a disaster**
 
 *Problem Statement:* This tool will rely on websites that provide employment information and sector-specific wage estimations (such as Glassdoor and Indeed) to project the economic loss (wage loss) due to a disaster. Based on the type of businesses and services in a given affected area and/or using supplementary demographic data (for example, from the Census Bureau of Statistics), the tool will provide an estimation about the projected economic loss in a given locality based on the reported or estimated wage loss in the locality.
 
@@ -283,29 +211,7 @@ The students will design and implement a web-tool or an app for rapid alert and 
 - [Github Link for DSI-SF students' past work.](https://github.com/mitchdshawn/disaster_income_loss)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 12: Leveraging News Sources and Social Media to Identify Major Historic Flood Events**
-
-*Problem Statement:*
-- Flooding presents a major challenge for property and even life in many cities. Floods can cause major disruptions, including by aggravating chronic congestions. The ability to accurately track where floods have impinged on cities helps document exposure, but this data also provides a basis for better predictive modeling.  When it comes to flooding, a [Smart City](https://en.wikipedia.org/wiki/Smart_city) would ideally be able to integrate geospatial intelligence from satellites, smartphone and sensor feedback. 
-- Under ideal circumstances, local governments, citizens and businesses can command some information about which areas have been historically exposed to floods, and where risks may occur in the future.  This also allows the city to know which public infrastructure assets have been exposed to flood.
-- While many advanced Smart Cities have put in place sophisticated systems towards this objective, many emerging localities leaders are looking to agile opportunities to gain baseline insights with the support of AI, setting the foundations for smarter digital infrastructure investments.
-- An effective investment in infrastructure requires a deep understanding about the vulnerability of cities, for example, which areas in a city are exposed to increased and frequent exposure to environmental risks, such as floods. 
-- In the last decade, image classification of satellite imagery (including change detection methods) have been a primary tool for delineation of flood extents. By comparing a satellite image captured during a flood event with a baseline (“non-event”) image, it is possible to identify which areas in a city were flooded during major flood events; This data can then be further analyzed and aggregated to identify areas in a city that have been prone to major flood events, for example, in the last 5 years.
-- However, this vulnerability analysis requires comprehensive data about major historical flood events (including their dates, characteristics and impacts). 
-- news sources and social media are a promising solution for extracting this essential data. There is a need for a tool that will extract from various sources on the web (news articles, social media posts etc.) all available data about historic flood events – dates, impacts and effect.
-- Having this data will allow to extract relevant satellite imagery that was captured during these flood events (students working on this project are not expected to do this image analysis). 
-
-*Desired Deliverables:*
-- A short write-up describing the project.
-- Open source code to allow for implementation of this big data search process. Namely, a tool that will scan all available web sources to extract all available data about major historical flood events in a given (developing) city.
-- The code should be flexible enough and allow the end user to change certain parameters, such as a name of a city, a region or a district, as well as to define specific dates for the data search. 
-- output of this code should be a CSV file which includes a comprehensive list of major flood events that have occurred in the city of interest between two dates (e.g. 1.1.2015 and 7.11.2019), including: event start data, event end date, impacted area, impacted sub-areas (e.g. neighborhoods), potential effect, number of affected people (if available), data source etc.
-- A preliminary proof of concept using a real-world example, demonstrating with a city from the developing world. 
-
-- [Github Link for DSI-CHI students' past work.](https://github.com/bethpadera/CHI-DSI9-PROJECT-FLOOD)
-- [Github Link for DSI-NYC students' past work.](https://github.com/Chana-T/historic-flooding-in-social-media)
-
-**Problem 13: Crowdsourcing Damage Photos**
+**Problem 8: Crowdsourcing Damage Photos**
 
 *Problem Statement:*
 Imagery is scarce at the start of a disaster. FEMA and partners rely on photos and other imagery to understand the disaster impacts and validate reports of damage. However, it is almost impossible to systematically acquire imagery the first day. Within the first few days, FEMA typically receives several types of satellite data. Within a week, other aerial imagery becomes available. Photos posted to social media can help fill in gaps in the interim, but these images are not captured systematically. The entire emergency management community would benefit from an app or service that anyone in an impacted area could use to take and submit photos. Ideally, these photos could be attained with cameras people may have on them (e.g. iPhones) or low-cost cameras. We need a systematic image capture workflow in order to conduct AI/ML/edge computing to conduct damage assessments. (Doing this from the ground would probably be quicker/easier than waiting on the winds to dissipate so you can fly planes.)
@@ -320,7 +226,7 @@ Imagery is scarce at the start of a disaster. FEMA and partners rely on photos a
 - Open source code for a “crowdsourcing app” that meets the defined requirements.
 - A pilot or proof of concept.
  
-**Problem 14: Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery**
+**Problem 9: Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery**
 
 *Problem Statement:*
 During disasters, emergency management agencies and humanitarian organizations need to know where survivors are congregating in order to provide emergency supplies and services. Sometimes, as was the case during the January 2020 earthquakes in Puerto Rico, local communities set up tents as informal shelters. State and national-level organizations may not know about these shelters for days. How can satellite imagery be used to identify informal shelters? Can the same imagery be used to observe changes in the number of tents or occupants? Can we see when a tent shelter is taken down?
@@ -336,7 +242,7 @@ During disasters, emergency management agencies and humanitarian organizations n
 - Google Earth imagery
 - Other imagery from earth-observing satellites
 
-**Problem 15: Updating Shelter Status**
+**Problem 10: Updating Shelter Status**
 
 *Problem Statement:*
 During disasters, shelters provide supplies and services to disaster survivors. Informal shelters can often be identified through social media and other internet sources; shelter operators are efficient at messaging about resource availability. However, this information is highly perishable, and it is difficult to know when a shelter is closed. How can social media or an app be used to allow any person visiting a shelter to record changes about the shelter status?
@@ -352,7 +258,7 @@ During disasters, shelters provide supplies and services to disaster survivors. 
 *Descriptions of input data:*
 - Social media, news outlets
  
-**Problem 16: Identifying Misinformation in Disaster-Related Social Media Posts**
+**Problem 11: Identifying Misinformation in Disaster-Related Social Media Posts**
 
 *Problem Statement:*
 While social media increasingly becomes the first source of information about disasters, this information is not always correct. Posts can be misleading or mistaken. On rarer occasion, users intentionally spread misinformation. How can emergency management agencies identify incorrect information before, during, and after disasters?
@@ -365,7 +271,7 @@ While social media increasingly becomes the first source of information about di
 *Descriptions of input data:*
 - Social media
  
-**Problem 17: Extracting Flood Depths from Imagery**
+**Problem 12: Extracting Flood Depths from Imagery**
 
 *Problem Statement:*
 Floods cause damage to infrastructure and homes. The depth of flood waters is a good indicator of the severity of damage. Floods are incredibly difficult to model, and while model outputs are useful to emergency managers, it is crucial to know the actual depth. Social media and news outlets often present pictures of floods. How can this imagery be used to estimate the depth of water in a given area? 
@@ -381,7 +287,7 @@ Floods cause damage to infrastructure and homes. The depth of flood waters is a 
 - Traffic cameras
 - Google Street View (“normal” imagery)
 
-**Problem 18: Improve Slum Area Identification through Real-Estate Data**
+**Problem 13: Improve Slum Area Identification through Real-Estate Data**
 
 *Problem Statement:*
 Mapping of informal settlements with satellite imagery is a long-standing practice, but such methods could be enhanced through web-scraped real-estate data. This project would build a web scraper to house and apartment adverts for a selected city in Africa/Latin America/Middle East. The scraper should download all adverts in the city during a recent period (ideally 3 years or more); and map all the adverts. The project should test the feasibility of estimating informal tenure from this information. Using gridded population estimates (e.g. from Facebook), the team would calculate the ratio of real estate adverts with population density. This ratio could serve as an input to machine learning models aimed at mapping informal settlements.
@@ -390,6 +296,125 @@ Mapping of informal settlements with satellite imagery is a long-standing practi
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for full process from gathering data to calculating and mapping the real estate to population density ratio
 - Proof of concept or pilot from a city or collection of cities.
+
+**Problem 14: Sentiment Analysis of COVID-19 Social Media Posts**
+
+*Problem Statement:*
+The COVID-19 response has been largely regional and state-based in nature. Some states have enacted strictly enforced stay-at-home policies, while others have provided guidelines. It would be worthwhile to compare the sentiment analysis of social media posts across geographic regions and compare them to both the local policies on social distancing and the occurrences of the pandemic in those areas. 
+
+*Proposed Deliverables:*
+- A short write up describing the project, results, and next steps or proposal to scale
+- Open source code for identifying social media posts from specific regions and conducting a sentiment analysis or topic extraction on that data
+
+*Descriptions of input data:*
+- Social media
+- Government data on social distancing policies
+- Health related data on COVID-19 occurrences in that region
+
+**Problem 15: Mapping Hotspots of COVID-19 Cases**
+
+*Problem Statement:*
+The data released regarding instances of the COVID-19 pandemic is aggregated before it is released to (legally and ethically) protect the privacy of those involved. Unfortunately, this takes away some of the utility of the data.  Using social media, the location of cases can be narrowed further while still protecting privacy rights. Social media data can provide a heat map for potential COVID-19 risk. 
+
+*Proposed Deliverables:*
+- A short write up describing the project, results, and next steps or proposal to scale
+- A shape file or other GIS visualization of potential heat map of COVID-19 cases. 
+
+*Descriptions of input data:*
+- Social media
+- Health related data on COVID-19 occurrences in that region
+
+**Problem 16: Identifying Areas At Risk for COVID-19 and Other Natural Disasters**
+
+*Problem Statement:*
+The COVID-19 pandemic, in some areas of the globe, will exacerbate the ongoing risk/exposure to other natural disasters. There is little understanding of the coupling of the pandemic risk and the risk of these other occurrences. A case study will show, via geospatial analysis, an overlay of the severity of the COVID-19 pandemic and the risk of floods, hurricanes, earthquakes, drought, etc. 
+
+*Proposed Deliverables:*
+- A short write-up describing the project.
+- The output should be geospatial with layers of the different disaster exposures.
+
+*Descriptions of input data:*
+- Current and/or historic natural disaster risk data
+- Health related data on COVID-19 occurrences 
+
+**Problem 17: Mapping Available Commodities During the COVID-19 Pandemic**
+
+*Problem Statement:*
+On a daily basis, news and social media highlight the shortage of certain commodities in local stores. There are limited ways for stores to indicate the availability of commodities that may be in demand (paper products, cleaning supplies, hand soap and sanitizer, etc). People, and stores, post on social media when they have availability. This project would be to create a geospatial layer that pulls in real-time social media posts to highlight where items are available in a given geographic location. 
+
+*Proposed Deliverables:*
+- A short write-up describing the project.
+- A geospatial output that shows the location of social media posts and available commodities, with a time stamp on those posts.
+
+*Descriptions of input data:*
+- Open source code to automatically identify a commodity and its availability at a given location. 
+
+**Problem 18: Chicago Case Study: Hotel Availability for Quarantine**
+
+*Problem Statement:*
+The City of Chicago was the first in the United States to coordinate the use of available hotel rooms as a location for safe quarantine during the COVID-19 pandemic. The hotels participating aren’t readily known to those who may need to use them for quarantine purposes. This project would be to create a tool to visualize in a geospatial layer the hotels used for quarantine, as well as their capacities. 
+
+*Proposed Deliverables:*
+- A short write-up describing the project.
+- A geospatial output that shows the location and capacity of hotels used for quarantine in real-time.
+
+*Descriptions of input data:*
+- Open source code to automatically identify nearby hotels and their capacity for quarantine. 
+
+
+### Supplemental Code from GA DSI Alumni
+
+Students in the past have completed projects that are no longer offered, but may be of interest to you. Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
+
+##### Extracting building values from Zillow
+
+- [Github Link for DSI-ATL students' past work.](https://github.com/katychow/DSI_Project4_Zipcodes)
+- [Github Link for DSI-BOS students' past work.](https://github.com/hixjas/Project-4-Zillow)
+- [Github Link for DSI-DC students' past work.](https://github.com/tbacas/Zillow-Disaster-Estimates)
+- [Github Link for DSI-DC students' past work.](https://github.com/zeeemo/Disaster-Estimates)
+- [Github Link for DSI-DC students' past work.](https://github.com/jhuessy/ga_client_project_zillow)
+- [Github Link for DSI-NYC students' past work.](https://github.com/cbratkovics/damage_estimator)
+- [Github Link for DSI-NYC students' past work.](https://github.com/rows317/DSI-8-Client-Project/blob/master/README.md)
+- [Github Link for DSI-SEA students' past work.](https://github.com/dsteffan/mount_rainier_disaster_estimate)
+- [Github Link for DSI-SF students' past work.](https://github.com/justinaugust/what-value-what-damage)
+
+##### Utilizing social media to alert about new disasters and their nature
+
+- [Github Link for DSI-ATX students' past work.](https://github.com/eamonious/disaster-tweet-classification)
+- [Github Link for DSI-ATX students' past work.](https://github.com/newtonsspawn/project_4)
+- [Github Link for DSI-DC students' past work.](https://github.com/katerdowdy/twitter_disaster)
+- [Github Link for DSI-LA students' past work.](https://github.com/mayjordata/Project-TeamAlert)
+- [Github Link for DSI-NYC students' past work.](https://github.com/EdithIyer/Harnessing-ML-for-Natural-Disaster-Alerts)
+- [Github Link for DSI-NYC students' past work.](https://github.com/klejohnson/Client_Project)
+- [Github Link for DSI-SEA students' past work.]https://github.com/bkumar33/Group_client_project)
+- [Github Link for DSI-SF students' past work.](https://github.com/rkkwan/disaster-rapid-alert)
+
+##### Utilizing Yelp cost estimates for estimating neighborhood affluency
+
+- [Github Link for DSI-BOS students' past work.](https://github.com/taylorjsimpson/GA_DSIBos_Yelp_Project5)
+- [Github Link for DSI-CHI students' past work.](https://github.com/brmcdonnell/estimating_affluence)
+- [Github Link for DSI-DEN students' past work.](https://github.com/rbkim1990/yelp-client-project)
+- [Github Link for DSI-LA students' past work.](https://github.com/jlian014/Clientproject_DSI_LA6)
+- [Github Link for DSI-LA students' past work.](https://github.com/hovikgas/hovieco)
+- [Github Link for DSI-LA students' past work.](https://github.com/irinhwng/Yelp)
+- [Github Link for DSI-LA students' past work.](https://github.com/aejsong/Predicting-Neighborhood-Affluence-with-Yelp)
+- [Github Link for DSI-NYC students' past work.](https://github.com/twludlow/ga_project_4)
+- [Github Link for DSI-NYC students' past work.](https://github.com/Shaddyjr/predicting_affluence_using_yelp)
+
+##### Utilizing Yelp data to estimate the number of businesses in a given locality and categorizing them according to FEMA's seven lifelines
+
+- [Github Link for DSI-ATL students' past work.](https://github.com/awharmon/FEMA-Lifelines-Categorization-for-Disaster-Response)
+- [Github Link for DSI-ATX students' past work.](https://github.com/adriancampos1/GA_DSI8_FEMA_Lifelines)
+- [Github Link for DSI-BOS students' past work.](https://github.com/micahluedtke/FEMA_lifelines)
+- [Github Link for DSI-CHI students' past work.](https://github.com/jwasham12/Client-Project)
+- [Github Link for DSI-DEN students' past work.](https://github.com/meldev00/FEMA_disaster_tool)
+- [Github Link for DSI-DC students' past work.](https://github.com/k10jo01/fema_lifeline_impact)
+
+##### Leveraging News Sources and Social Media to Identify Major Historic Flood Events
+
+- [Github Link for DSI-CHI students' past work.](https://github.com/bethpadera/CHI-DSI9-PROJECT-FLOOD)
+- [Github Link for DSI-NYC students' past work.](https://github.com/Chana-T/historic-flooding-in-social-media)
+
 
 ## Requirements
 For the purposes of a DSI project, you must meet a few technical requirements. They are:
@@ -408,9 +433,9 @@ For the purposes of a DSI project, you must meet a few technical requirements. T
 
 3) Bear in mind that the value you provide to New Light Technologies may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
 
-**Deadline**: February 21, 2020.
+**Deadline**: May 15, 2020.
 
-**Questions**: Questions should be sent to your local instructor; questions that need to go to the client should be directed to Matt Brems via email (matt.brems@ga.co). Questions should be specific, brief, and formatted so that they can be directly sent to our contacts at NLT.
+**Questions**: Questions should be sent to your local instructor; questions that need to go to the client should be directed to Matt Brems via email (matt.brems@ga.co). **Questions should be specific, brief, and formatted so that they can be directly sent to our contacts at NLT.**
 > This is a good practice to develop! When contacting a boss or a client, you should make your question as easy as possible to answer. Consider the following two examples:
 
 > Example 1: "Hey, I have a question. I'm writing a blog post about TensorFlow but got stuck. This part was confusing: https://www.tensorflow.org/api_docs/python/tf/tanh Can you help?"
@@ -421,7 +446,7 @@ For the purposes of a DSI project, you must meet a few technical requirements. T
 
 > The second example quickly calls out 'Tensorflow tanh documentation,' the explicit quote that is confusing, the explicit question being asked, and a link for additional context. Both examples attempt to get the boss/client/whomever to explain hyperbolic tangent, but imagine how much more quickly someone could answer the second query than the first.
 
-> A helpful way to consider this: When you ask a question, you are basically asking for a favor. You're asking a person to give their time, their brainpower, and their knowledge to you. Every time you ask them to hunt around for more (i.e. they have to travel to a link to get more information or they struggle to understand the question you're asking), you're asking a bigger and bigger favor from them.
+> A helpful way to consider this: When you ask a question, you are basically asking for a favor. You're asking a person to give their time, their brainpower, and their knowledge to you. Every time you ask them to hunt around for more (i.e. they _have_ to travel to a link to get context or they struggle to understand the question you're asking), you're asking a bigger and bigger favor from them.
 
 ---
 
