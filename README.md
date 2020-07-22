@@ -41,15 +41,15 @@ For the next three weeks, our class will tackle various projects related to emer
 - Often, survivors will resort to using social media to call for help or share information about their location and the current situation. In many cases they will also include useful images showing water levels, amount of damage etc. which could indicate on the intensity of the disaster.
 - This information can be leveraged to track the event in real-time. Social media can help identify isolated communities at risk, locations of survivors and areas where assistance teams should be sent for search and rescue, levels of damage, help map depths of flooding, identify where additional imagery/information needs to be collected and plan when and where resources should be allocated.
 - This project will discover new ways to leverage social media (including from Twitter, Facebook, Instagram, Snapchat, or others) to supplement current tools and methodologies used when responding to disasters.
-- The tools developed in this project will also help leverage social media to locate hot spots of where people are needing assistance, using, for example, geolocated posts/tweets containing keywords such as “flood”, “fire”, “damage”, “destroyed” or anything else that could be related to the specific disaster event, including searching for images tagged with  relevant keywords. A main challenge will be, of course, removing irrelevant information that may happen to contain similar keywords.
+- The tools developed in this project will also help leverage social media to locate hot spots of where people are needing assistance, using, for example, geolocated posts/tweets containing keywords such as "flood", "fire", "damage", "destroyed" or anything else that could be related to the specific disaster event, including searching for images tagged with  relevant keywords. A main challenge will be, of course, removing irrelevant information that may happen to contain similar keywords.
 
 *Suggestions for Deliverables:*
 - A short write-up describing the project.
 - Open source code to allow for implementation of this big data search process during a
 disaster.
 - The code should be flexible enough and allow the end user to change certain keywords
-which would correspond to different disaster types, e.g.: “flood”, “water”, “depth”, for a
-flood event and “burn”, “fire”, “smoke” for a wildfire event. Possible disaster events
+which would correspond to different disaster types, e.g.: "flood", "water", "depth", for a
+flood event and "burn", "fire", "smoke" for a wildfire event. Possible disaster events
 include floods, fires, hurricanes, earthquakes, tornadoes, tsunamis and volcanoes.
 - Output of this code should be a geolocated dataset (a GIS shapefile or json with lat/long
 reference, or a KML file) with relevant information acquired from the tweet as attribution
@@ -88,9 +88,9 @@ reference, or a KML file) with relevant information acquired from the tweet as a
 
 *Suggestions for Deliverables:*
 - A short write-up describing the project.
-- An open source code that allows to create a disaster-specific webpage, which “pulls” relevant news articles relevant to a specific event. The code should only pull the title of the article/post, an abstract/summary (if available) and an image/ thumbnail (if available) and include a link to the original source.
-- An example (proof of concept) of a disaster event-specific web page which is populated by a real-time feed of relevant news articles, journals, blog posts, videos, etc. pertaining to a live event such as “Hurricane Lane”, or “Hurricane Harvey”, etc.
-  - A user accessing this web page should have the ability to filter the search query by date, media type and certain keywords such as “evacuation”, “fire”, “damage assessment”,
+- An open source code that allows to create a disaster-specific webpage, which "pulls" relevant news articles relevant to a specific event. The code should only pull the title of the article/post, an abstract/summary (if available) and an image/ thumbnail (if available) and include a link to the original source.
+- An example (proof of concept) of a disaster event-specific web page which is populated by a real-time feed of relevant news articles, journals, blog posts, videos, etc. pertaining to a live event such as "Hurricane Lane", or "Hurricane Harvey", etc.
+  - A user accessing this web page should have the ability to filter the search query by date, media type and certain keywords such as "evacuation", "fire", "damage assessment",
   name of a city, etc.
   - The tool should also allow the website editor to set these keywords and search queries (i.e. the page will always show the relevant news feeds set by the editor/admin).
   - This web page can be integrated with other methods to provide situational awareness to the disaster response community such as being featured on a disaster response website with relevant disaster data.
@@ -142,7 +142,7 @@ affect travel and accessibility.
 
 #### Problem: Using Google Street View as a baseline for damage assessment.
 
-*Problem Statement:* During the recovery phase immediately following a disaster, FEMA performs damage assessment “on the ground” to assess the level of damage caused to residential parcels and to critical infrastructure. To assure an accurate estimation of the damage, it is important to understand the condition of the structures prior to the event. To help and guide the damage assessment efforts following a disaster and to assist the surveyors identify the structures of interest, this tool (a web-app or a mobile app) will expect to get, as an input, a list of addresses. It will retrieve screen shots of the structures from Google Street View. The students will design a damage assessment form, which, in addition to relevant information about the level of damage to the structures, will also provide a pre-event photo of the assessed structure.
+*Problem Statement:* During the recovery phase immediately following a disaster, FEMA performs damage assessment "on the ground" to assess the level of damage caused to residential parcels and to critical infrastructure. To assure an accurate estimation of the damage, it is important to understand the condition of the structures prior to the event. To help and guide the damage assessment efforts following a disaster and to assist the surveyors identify the structures of interest, this tool (a web-app or a mobile app) will expect to get, as an input, a list of addresses. It will retrieve screen shots of the structures from Google Street View. The students will design a damage assessment form, which, in addition to relevant information about the level of damage to the structures, will also provide a pre-event photo of the assessed structure.
 
 - [Github Link for DSI-ATX students' past work.](https://github.com/DataPointChris/newlight_satellite_image_detection)
 - [Github Link for DSI-BOS students' past work.](https://github.com/nmcalow/Project_5_FEMA)
@@ -156,7 +156,7 @@ affect travel and accessibility.
 
 #### Problem: Using news outlets or social media to identify areas or neighborhoods with power outages.
 
-*Problem Statement:* During a disaster, residential areas often experience massive power outages, that in many cases last for days. Traditional methods to map power outages include live feeds and data that is provided by major utility companies as well as on satellite data that capture the extent of light emitted at night.  This tool will utilize news feeds and/or posts on social media to identify “hot spots” of concern and areas suffering from power outages (assuming that these posts are reported via social media apps on mobile phone). Following an event, the tool will scan relevant news or social media websites to identify localities likely to suffer from power outage.
+*Problem Statement:* During a disaster, residential areas often experience massive power outages, that in many cases last for days. Traditional methods to map power outages include live feeds and data that is provided by major utility companies as well as on satellite data that capture the extent of light emitted at night.  This tool will utilize news feeds and/or posts on social media to identify "hot spots" of concern and areas suffering from power outages (assuming that these posts are reported via social media apps on mobile phone). Following an event, the tool will scan relevant news or social media websites to identify localities likely to suffer from power outage.
 
 - [Github Link for DSI-LA students' past work.](https://github.com/CreightonAshton/Power_Outages)
 - [Github Link for DSI-NYC students' past work.](https://github.com/boom-deva/FEMA-Power-Outage-Hotspot-Detection)
@@ -186,7 +186,7 @@ Imagery is scarce at the start of a disaster. FEMA and partners rely on photos a
      - Includes geolocation of upload
      - Allows user to annotate or tag photos
      - Service/app can be deployed through email, social media, emergency messaging systems, or other common platforms
-- Open source code for a “crowdsourcing app” that meets the defined requirements.
+- Open source code for a "crowdsourcing app" that meets the defined requirements.
 - A pilot or proof of concept.
  
 #### Problem: Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery
@@ -248,7 +248,7 @@ Floods cause damage to infrastructure and homes. The depth of flood waters is a 
 - Social media
 - News (TV, internet, etc.)
 - Traffic cameras
-- Google Street View (“normal” imagery)
+- Google Street View ("normal" imagery)
 
 #### Problem: Improve Slum Area Identification through Real-Estate Data
 
