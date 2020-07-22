@@ -1,9 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 5: Group Project
 
-### Overview
-
-We've organized for you to complete a group project. This is a great opportunity for you to work on a team with **real data**.
-
 ### The work
 
 For this project, you will be doing work that focuses on: 
@@ -47,7 +43,7 @@ For the next three weeks, our class will tackle various projects related to emer
 - This project will discover new ways to leverage social media (including from Twitter, Facebook, Instagram, Snapchat, or others) to supplement current tools and methodologies used when responding to disasters.
 - The tools developed in this project will also help leverage social media to locate hot spots of where people are needing assistance, using, for example, geolocated posts/tweets containing keywords such as “flood”, “fire”, “damage”, “destroyed” or anything else that could be related to the specific disaster event, including searching for images tagged with  relevant keywords. A main challenge will be, of course, removing irrelevant information that may happen to contain similar keywords.
 
-*Desired Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - Open source code to allow for implementation of this big data search process during a
 disaster.
@@ -90,16 +86,15 @@ reference, or a KML file) with relevant information acquired from the tweet as a
 - There is currently no forum for rounding up and archiving relevant news for a live disaster event.
 - This project will leverage news feeds relevant to specific disasters, gathered from multiple sources, to create a webpage that presents these live feeds under one umbrella (on one page). This is similar to the Google News feature.
 
-*Desired Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - An open source code that allows to create a disaster-specific webpage, which “pulls” relevant news articles relevant to a specific event. The code should only pull the title of the article/post, an abstract/summary (if available) and an image/ thumbnail (if available) and include a link to the original source.
 - An example (proof of concept) of a disaster event-specific web page which is populated by a real-time feed of relevant news articles, journals, blog posts, videos, etc. pertaining to a live event such as “Hurricane Lane”, or “Hurricane Harvey”, etc.
-
-- A user accessing this web page should have the ability to filter the search query by date, media type and certain keywords such as “evacuation”, “fire”, “damage assessment”,
-name of a city, etc.
-- The tool should also allow the website editor to set these keywords and search queries (i.e. the page will always show the relevant news feeds set by the editor/admin).
-- This web page can be integrated with other methods to provide situational awareness to the disaster response community such as being featured on a disaster response website with relevant disaster data.
-- Map files, toolboxes, data and any other supporting files are needed as deliverables to test and run the code.
+  - A user accessing this web page should have the ability to filter the search query by date, media type and certain keywords such as “evacuation”, “fire”, “damage assessment”,
+  name of a city, etc.
+  - The tool should also allow the website editor to set these keywords and search queries (i.e. the page will always show the relevant news feeds set by the editor/admin).
+  - This web page can be integrated with other methods to provide situational awareness to the disaster response community such as being featured on a disaster response website with relevant disaster data.
+  - Map files, toolboxes, data and any other supporting files are needed as deliverables to test and run the code.
 
 *Descriptions of input data:*
 - News articles, journals, blog posts, videos from external media websites
@@ -123,7 +118,7 @@ distance between origin and destination and propose an optimal route to the dest
 - This project will leverage social media, news feeds and other datasets (e.g. Waze, Here.com) to identify real time road closures or damaged roads, power outages and other blocked routes that may affect traffic lights, travel time, travel safety and more.
 - The system should allow the user (the public or rescue teams) to search for any of these conditions and identify if and where they exist in a specific location (street, neighborhood, city etc.)
 
-*Desired Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - An open source code that pulls live information from social media and/or news feeds about road closures, road conditions, damaged roads, power outages etc. which may
 affect travel and accessibility.
