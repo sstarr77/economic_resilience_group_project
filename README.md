@@ -386,7 +386,7 @@ Students in the past have completed projects that are no longer offered, but may
 - [Github Link for DSI-LA students' past work.](https://github.com/mayjordata/Project-TeamAlert)
 - [Github Link for DSI-NYC students' past work.](https://github.com/EdithIyer/Harnessing-ML-for-Natural-Disaster-Alerts)
 - [Github Link for DSI-NYC students' past work.](https://github.com/klejohnson/Client_Project)
-- [Github Link for DSI-SEA students' past work.]https://github.com/bkumar33/Group_client_project)
+- [Github Link for DSI-SEA students' past work.](https://github.com/bkumar33/Group_client_project)
 - [Github Link for DSI-SF students' past work.](https://github.com/rkkwan/disaster-rapid-alert)
 
 ##### Utilizing Yelp cost estimates for estimating neighborhood affluency
