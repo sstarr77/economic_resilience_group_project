@@ -179,7 +179,7 @@ affect travel and accessibility.
 *Problem Statement:*
 Imagery is scarce at the start of a disaster. FEMA and partners rely on photos and other imagery to understand the disaster impacts and validate reports of damage. However, it is almost impossible to systematically acquire imagery the first day. Within the first few days, FEMA typically receives several types of satellite data. Within a week, other aerial imagery becomes available. Photos posted to social media can help fill in gaps in the interim, but these images are not captured systematically. The entire emergency management community would benefit from an app or service that anyone in an impacted area could use to take and submit photos. Ideally, these photos could be attained with cameras people may have on them (e.g. iPhones) or low-cost cameras. We need a systematic image capture workflow in order to conduct AI/ML/edge computing to conduct damage assessments. (Doing this from the ground would probably be quicker/easier than waiting on the winds to dissipate so you can fly planes.)
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project, results, and next steps or proposal to scale.
 - A list of technical requirements for an app that allows anyone in an impacted area to upload disaster photos. Examples include:
      - Must work in a low-connectivity environment (e.g. phone-to-phone mesh networks)
@@ -194,7 +194,7 @@ Imagery is scarce at the start of a disaster. FEMA and partners rely on photos a
 *Problem Statement:*
 During disasters, emergency management agencies and humanitarian organizations need to know where survivors are congregating in order to provide emergency supplies and services. Sometimes, as was the case during the January 2020 earthquakes in Puerto Rico, local communities set up tents as informal shelters. State and national-level organizations may not know about these shelters for days. How can satellite imagery be used to identify informal shelters? Can the same imagery be used to observe changes in the number of tents or occupants? Can we see when a tent shelter is taken down?
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for exploiting open source imagery
 - An example or case study (e.g. Puerto Rico earthquakes)
@@ -210,7 +210,7 @@ During disasters, emergency management agencies and humanitarian organizations n
 *Problem Statement:*
 During disasters, shelters provide supplies and services to disaster survivors. Informal shelters can often be identified through social media and other internet sources; shelter operators are efficient at messaging about resource availability. However, this information is highly perishable, and it is difficult to know when a shelter is closed. How can social media or an app be used to allow any person visiting a shelter to record changes about the shelter status?
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - List of requirements for a system to track shelter status. For example:
      - Tracks changes in shelter status over time
@@ -226,7 +226,7 @@ During disasters, shelters provide supplies and services to disaster survivors. 
 *Problem Statement:*
 While social media increasingly becomes the first source of information about disasters, this information is not always correct. Posts can be misleading or mistaken. On rarer occasion, users intentionally spread misinformation. How can emergency management agencies identify incorrect information before, during, and after disasters?
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for identifying rumors among relevant social media posts
 - Proof of concept or pilot from a recent disaster
@@ -239,7 +239,7 @@ While social media increasingly becomes the first source of information about di
 *Problem Statement:*
 Floods cause damage to infrastructure and homes. The depth of flood waters is a good indicator of the severity of damage. Floods are incredibly difficult to model, and while model outputs are useful to emergency managers, it is crucial to know the actual depth. Social media and news outlets often present pictures of floods. How can this imagery be used to estimate the depth of water in a given area? 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for estimating flood depths from ground-based imagery
 - Example from flooding after a recent hurricane (e.g. Imelda, Florence, Harvey)
@@ -255,7 +255,7 @@ Floods cause damage to infrastructure and homes. The depth of flood waters is a 
 *Problem Statement:*
 Mapping of informal settlements with satellite imagery is a long-standing practice, but such methods could be enhanced through web-scraped real-estate data. This project would build a web scraper to house and apartment adverts for a selected city in Africa/Latin America/Middle East. The scraper should download all adverts in the city during a recent period (ideally 3 years or more); and map all the adverts. The project should test the feasibility of estimating informal tenure from this information. Using gridded population estimates (e.g. from Facebook), the team would calculate the ratio of real estate adverts with population density. This ratio could serve as an input to machine learning models aimed at mapping informal settlements.
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for full process from gathering data to calculating and mapping the real estate to population density ratio
 - Proof of concept or pilot from a city or collection of cities.
@@ -265,7 +265,7 @@ Mapping of informal settlements with satellite imagery is a long-standing practi
 *Problem Statement:*
 The COVID-19 response has been largely regional and state-based in nature. Some states have enacted strictly enforced stay-at-home policies, while others have provided guidelines. It would be worthwhile to compare the sentiment analysis of social media posts across geographic regions and compare them to both the local policies on social distancing and the occurrences of the pandemic in those areas. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for identifying social media posts from specific regions and conducting a sentiment analysis or topic extraction on that data
 
@@ -279,7 +279,7 @@ The COVID-19 response has been largely regional and state-based in nature. Some 
 *Problem Statement:*
 The data released regarding instances of the COVID-19 pandemic is aggregated before it is released to (legally and ethically) protect the privacy of those involved. Unfortunately, this takes away some of the utility of the data.  Using social media, the location of cases can be narrowed further while still protecting privacy rights. Social media data can provide a heat map for potential COVID-19 risk. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - A shape file or other GIS visualization of potential heat map of COVID-19 cases. 
 
@@ -292,7 +292,7 @@ The data released regarding instances of the COVID-19 pandemic is aggregated bef
 *Problem Statement:*
 The COVID-19 pandemic, in some areas of the globe, will exacerbate the ongoing risk/exposure to other natural disasters. There is little understanding of the coupling of the pandemic risk and the risk of these other occurrences. A case study will show, via geospatial analysis, an overlay of the severity of the COVID-19 pandemic and the risk of floods, hurricanes, earthquakes, drought, etc. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - The output should be geospatial with layers of the different disaster exposures.
 
@@ -305,7 +305,7 @@ The COVID-19 pandemic, in some areas of the globe, will exacerbate the ongoing r
 *Problem Statement:*
 On a daily basis, news and social media highlight the shortage of certain commodities in local stores. There are limited ways for stores to indicate the availability of commodities that may be in demand (paper products, cleaning supplies, hand soap and sanitizer, etc). People, and stores, post on social media when they have availability. This project would be to create a geospatial layer that pulls in real-time social media posts to highlight where items are available in a given geographic location. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - A geospatial output that shows the location of social media posts and available commodities, with a time stamp on those posts.
 
@@ -317,7 +317,7 @@ On a daily basis, news and social media highlight the shortage of certain commod
 *Problem Statement:*
 The City of Chicago was the first in the United States to coordinate the use of available hotel rooms as a location for safe quarantine during the COVID-19 pandemic. The hotels participating aren’t readily known to those who may need to use them for quarantine purposes. This project would be to create a tool to visualize in a geospatial layer the hotels used for quarantine, as well as their capacities. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - A geospatial output that shows the location and capacity of hotels used for quarantine in real-time.
 
