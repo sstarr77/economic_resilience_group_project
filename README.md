@@ -408,11 +408,11 @@ For the purposes of a DSI project, you must meet a few technical requirements. T
     - I should be able to `Restart & Run All` in your notebook(s) and see that the _exact same_ results are reproduced.
     - To check that everything worked properly, you may consider forking your own repo to a different location on your computer and checking that all notebooks can run properly from top to bottom.
 
-3) Bear in mind that the value you provide to New Light Technologies may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
+3) Bear in mind that the value you provide may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
 
 **Deadline**: August 14, 2020.
 
-**Questions**: Questions should be sent to your local instructor; questions that need to go to the client should be directed to Matt Brems via email (matt.brems@ga.co). **Questions should be specific, brief, and formatted so that they can be directly sent to our contacts at NLT.**
+**Questions**: Questions should be sent to your local instructor. **Questions should be specific, brief, and formatted.**
 > This is a good practice to develop! When contacting a boss or a client, you should make your question as easy as possible to answer. Consider the following two examples:
 
 > Example 1: "Hey, I have a question. I'm writing a blog post about TensorFlow but got stuck. This part was confusing: https://www.tensorflow.org/api_docs/python/tf/tanh Can you help?"
@@ -451,7 +451,6 @@ Presentation requirements:
 - Your presentation must include slides. (Google Slides, PowerPoint, Keynote, etc.)
 - Use visuals that are appropriately scaled and interpretable.
 - Make sure you provide clear conclusions/recommendations that follow logically from your analyses and narrative and answer your data science problem.
-- *Your presentation must also be recorded so that it may be shared with the client.*
 
 ---
 
