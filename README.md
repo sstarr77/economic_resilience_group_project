@@ -1,44 +1,17 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 5: Client Project
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 5: Group Project
 
-### Overview
-
-We've organized for you to complete a client project. This is a great opportunity for you to be exposed to a **real organization** doing **real work** with **real data**.
-
-**The Organization**:
-
-- [New Light Technologies](https://newlighttechnologies.com/) is a small, award-winning organization based in Washington, D.C. that provides solutions to government, commercial, and non-profit clients. NLT is a team of dedicated technologists, scientists, engineers, designers, and strategists working on some of the most interesting, challenging, and important assignments in the world, ranging from disaster response to enabling growing telecommunications networks to providing healthcare to Americans. Some of the organizations they work with include FEMA (the Federal Emergency Management Agency), USAID (the United States Agency for International Development), the U.S. Census Bureau, and The World Bank.
-
-- [Ran Goldblatt](https://newlighttechnologies.com/staff/ran-goldblatt/), our contact with NLT, is a remote sensing scientist and senior consultant. He has a strong background in geographic information systems (GIS) and leverages this knowledge when solving problems facing various agencies.
-
-**The Work**:
+### The work
 
 For this project, you will be doing work that focuses on: 
 - preparing for emergencies,
 - rapidly responding to emergencies, and/or 
 - estimating the economic impact of disasters.
 
-The goal is for you to leverage your skills to help solve real-world problems. NLT has identified twelve potential prompts of value to them. You may pick one and attempt to solve it. Alternatively, if you would like to edit the problem slightly (for example, picking a different data source) or combine multiple prompts together, you may do that as well!
+The goal is for you to leverage your skills to help solve real-world problems. Your instructors have identified several potential prompts. You may pick one and attempt to solve it. 
 
-1. Leveraging Social Media to Map Disasters.
-2. Leveraging News and Media for Situational Awareness.
-3. Optimizing Evacuation Routes using Real-Time Traffic Information.
-4. Using Google Street View to retrieve (pre-event) photos of structures.
-5. Using news outlets and/or social media to identify areas/neighborhoods with power outages.
-6. Using live police radio reports for real time identification of people needing assistance.
-7. Using Indeed or Glassdoor platforms together with number and type of affected businesses to estimate the expected economic loss (wages) due to a disaster.
-8. Crowdsourcing Damage Photos
-9. Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery
-10. Updating Shelter Status
-11. Identifying Misinformation in Disaster-Related Social Media Posts
-12. Extracting Flood Depths from Imagery
-13. Improve Slum Area Identification through Real-Estate Data
-14. Sentiment Analysis of COVID-19 Social Media Posts
-15. Mapping Hotspots of COVID-19 Cases
-16. Identifying Areas At Risk for COVID-19 and Other Natural Disasters
-17. Mapping Available Commodities During the COVID-19 Pandemic
-18. Chicago Case Study: Hotel Availability for Quarantine
+The prompts are intended to help jump-start your ideation process. If you would like to edit a problem (for example, picking a different data source) or combine multiple prompts together, you may do that as well! **Consult your local instructor for final approval before getting started.**
 
-**The Data**:
+### The Data
 
 For this project, you aren't given any data! You are given *possible* sources for data, but don't feel limited by this. Be creative in where and how you gather data!
 - Is there data easily downloadable into a .csv or .json file? 
@@ -51,16 +24,16 @@ As with the Reddit project, it's important to identify source(s) for your data e
 
 **This is where you come in**:
 
-For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, May 15**, we'll present our findings and deliver:
-1. A clean GitHub repo containing our reproducible results and analysis.
+For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, August 14**, you'll present your findings and deliver:
+1. A clean GitHub repo containing reproducible results and analysis.
 2. A real-world demonstration of the product.
 3. Any documentation for running the code.
 
-> This is an exciting opportunity to identify and solve a problem relevant to the real world problems. Using your data science skills in this practical, _pro bono_ capacity reflects well on you and gives you a great story as you embark on interviews! (The fact that we'll be using open data also gives you free reign to publicly publish your findings and to freely discuss this in interviews.)
+> This is an exciting opportunity to identify and solve a problem relevant to the real world issues. Using your data science skills in this practical, _pro bono_ capacity reflects well on you and gives you a great story as you embark on interviews! (The fact that we'll be using open data also gives you free reign to publicly publish your findings and to freely discuss this in interviews.)
 
 ### Problem Summaries
 
-**Problem 1: Leveraging Social Media to Map Disasters**
+#### Problem: Leveraging Social Media to Map Disasters
 
 *Problem Statement:*
 - When responding to disasters (e.g. damage and casualties caused by hurricanes, tornadoes, floods, fires etc.), it is critical to map and identify locations of survivors needing assistance.
@@ -68,15 +41,15 @@ For the next three weeks, our class will tackle various projects related to emer
 - Often, survivors will resort to using social media to call for help or share information about their location and the current situation. In many cases they will also include useful images showing water levels, amount of damage etc. which could indicate on the intensity of the disaster.
 - This information can be leveraged to track the event in real-time. Social media can help identify isolated communities at risk, locations of survivors and areas where assistance teams should be sent for search and rescue, levels of damage, help map depths of flooding, identify where additional imagery/information needs to be collected and plan when and where resources should be allocated.
 - This project will discover new ways to leverage social media (including from Twitter, Facebook, Instagram, Snapchat, or others) to supplement current tools and methodologies used when responding to disasters.
-- The tools developed in this project will also help leverage social media to locate hot spots of where people are needing assistance, using, for example, geolocated posts/tweets containing keywords such as “flood”, “fire”, “damage”, “destroyed” or anything else that could be related to the specific disaster event, including searching for images tagged with  relevant keywords. A main challenge will be, of course, removing irrelevant information that may happen to contain similar keywords.
+- The tools developed in this project will also help leverage social media to locate hot spots of where people are needing assistance, using, for example, geolocated posts/tweets containing keywords such as "flood", "fire", "damage", "destroyed" or anything else that could be related to the specific disaster event, including searching for images tagged with  relevant keywords. A main challenge will be, of course, removing irrelevant information that may happen to contain similar keywords.
 
-*Desired Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - Open source code to allow for implementation of this big data search process during a
 disaster.
 - The code should be flexible enough and allow the end user to change certain keywords
-which would correspond to different disaster types, e.g.: “flood”, “water”, “depth”, for a
-flood event and “burn”, “fire”, “smoke” for a wildfire event. Possible disaster events
+which would correspond to different disaster types, e.g.: "flood", "water", "depth", for a
+flood event and "burn", "fire", "smoke" for a wildfire event. Possible disaster events
 include floods, fires, hurricanes, earthquakes, tornadoes, tsunamis and volcanoes.
 - Output of this code should be a geolocated dataset (a GIS shapefile or json with lat/long
 reference, or a KML file) with relevant information acquired from the tweet as attribution
@@ -105,7 +78,7 @@ reference, or a KML file) with relevant information acquired from the tweet as a
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 
-**Problem 2: Leveraging News and Media for Situational Awareness**
+#### Problem: Leveraging News and Media for Situational Awareness
 
 *Problem Statement:*
 - During a major disaster, it is essential to provide the public and responders with relevant local news updates in order to gain situational awareness during the event.
@@ -113,16 +86,15 @@ reference, or a KML file) with relevant information acquired from the tweet as a
 - There is currently no forum for rounding up and archiving relevant news for a live disaster event.
 - This project will leverage news feeds relevant to specific disasters, gathered from multiple sources, to create a webpage that presents these live feeds under one umbrella (on one page). This is similar to the Google News feature.
 
-*Desired Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
-- An open source code that allows to create a disaster-specific webpage, which “pulls” relevant news articles relevant to a specific event. The code should only pull the title of the article/post, an abstract/summary (if available) and an image/ thumbnail (if available) and include a link to the original source.
-- An example (proof of concept) of a disaster event-specific web page which is populated by a real-time feed of relevant news articles, journals, blog posts, videos, etc. pertaining to a live event such as “Hurricane Lane”, or “Hurricane Harvey”, etc.
-
-- A user accessing this web page should have the ability to filter the search query by date, media type and certain keywords such as “evacuation”, “fire”, “damage assessment”,
-name of a city, etc.
-- The tool should also allow the website editor to set these keywords and search queries (i.e. the page will always show the relevant news feeds set by the editor/admin).
-- This web page can be integrated with other methods to provide situational awareness to the disaster response community such as being featured on a disaster response website with relevant disaster data.
-- Map files, toolboxes, data and any other supporting files are needed as deliverables to test and run the code.
+- An open source code that allows to create a disaster-specific webpage, which "pulls" relevant news articles relevant to a specific event. The code should only pull the title of the article/post, an abstract/summary (if available) and an image/ thumbnail (if available) and include a link to the original source.
+- An example (proof of concept) of a disaster event-specific web page which is populated by a real-time feed of relevant news articles, journals, blog posts, videos, etc. pertaining to a live event such as "Hurricane Lane", or "Hurricane Harvey", etc.
+  - A user accessing this web page should have the ability to filter the search query by date, media type and certain keywords such as "evacuation", "fire", "damage assessment",
+  name of a city, etc.
+  - The tool should also allow the website editor to set these keywords and search queries (i.e. the page will always show the relevant news feeds set by the editor/admin).
+  - This web page can be integrated with other methods to provide situational awareness to the disaster response community such as being featured on a disaster response website with relevant disaster data.
+  - Map files, toolboxes, data and any other supporting files are needed as deliverables to test and run the code.
 
 *Descriptions of input data:*
 - News articles, journals, blog posts, videos from external media websites
@@ -136,7 +108,7 @@ name of a city, etc.
 - [Github Link for DSI-SF (3) students' past work.](https://github.com/tmckee35/Team-4-Client-Project)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 3: Optimizing Evacuation Routes using Real-Time Traffic Information**
+#### Problem: Optimizing Evacuation Routes using Real-Time Traffic Information
 
 *Problem Statement:*
 - During disasters, search and rescue teams must be able to search for and get to survivors as fast as possible (in terms of travel time and distance)
@@ -146,7 +118,7 @@ distance between origin and destination and propose an optimal route to the dest
 - This project will leverage social media, news feeds and other datasets (e.g. Waze, Here.com) to identify real time road closures or damaged roads, power outages and other blocked routes that may affect traffic lights, travel time, travel safety and more.
 - The system should allow the user (the public or rescue teams) to search for any of these conditions and identify if and where they exist in a specific location (street, neighborhood, city etc.)
 
-*Desired Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - An open source code that pulls live information from social media and/or news feeds about road closures, road conditions, damaged roads, power outages etc. which may
 affect travel and accessibility.
@@ -168,9 +140,9 @@ affect travel and accessibility.
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 
-**Problem 4: Using Google Street View as a baseline for damage assessment.**
+#### Problem: Using Google Street View as a baseline for damage assessment.
 
-*Problem Statement:* During the recovery phase immediately following a disaster, FEMA performs damage assessment “on the ground” to assess the level of damage caused to residential parcels and to critical infrastructure. To assure an accurate estimation of the damage, it is important to understand the condition of the structures prior to the event. To help and guide the damage assessment efforts following a disaster and to assist the surveyors identify the structures of interest, this tool (a web-app or a mobile app) will expect to get, as an input, a list of addresses. It will retrieve screen shots of the structures from Google Street View. The students will design a damage assessment form, which, in addition to relevant information about the level of damage to the structures, will also provide a pre-event photo of the assessed structure.
+*Problem Statement:* During the recovery phase immediately following a disaster, FEMA performs damage assessment "on the ground" to assess the level of damage caused to residential parcels and to critical infrastructure. To assure an accurate estimation of the damage, it is important to understand the condition of the structures prior to the event. To help and guide the damage assessment efforts following a disaster and to assist the surveyors identify the structures of interest, this tool (a web-app or a mobile app) will expect to get, as an input, a list of addresses. It will retrieve screen shots of the structures from Google Street View. The students will design a damage assessment form, which, in addition to relevant information about the level of damage to the structures, will also provide a pre-event photo of the assessed structure.
 
 - [Github Link for DSI-ATX students' past work.](https://github.com/DataPointChris/newlight_satellite_image_detection)
 - [Github Link for DSI-BOS students' past work.](https://github.com/nmcalow/Project_5_FEMA)
@@ -182,9 +154,9 @@ affect travel and accessibility.
 - [Github Link for DSI-SF students' past work.](https://github.com/miecky/project-client_project)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 5: Using news outlets or social media to identify areas or neighborhoods with power outages.**
+#### Problem: Using news outlets or social media to identify areas or neighborhoods with power outages.
 
-*Problem Statement:* During a disaster, residential areas often experience massive power outages, that in many cases last for days. Traditional methods to map power outages include live feeds and data that is provided by major utility companies as well as on satellite data that capture the extent of light emitted at night.  This tool will utilize news feeds and/or posts on social media to identify “hot spots” of concern and areas suffering from power outages (assuming that these posts are reported via social media apps on mobile phone). Following an event, the tool will scan relevant news or social media websites to identify localities likely to suffer from power outage.
+*Problem Statement:* During a disaster, residential areas often experience massive power outages, that in many cases last for days. Traditional methods to map power outages include live feeds and data that is provided by major utility companies as well as on satellite data that capture the extent of light emitted at night.  This tool will utilize news feeds and/or posts on social media to identify "hot spots" of concern and areas suffering from power outages (assuming that these posts are reported via social media apps on mobile phone). Following an event, the tool will scan relevant news or social media websites to identify localities likely to suffer from power outage.
 
 - [Github Link for DSI-LA students' past work.](https://github.com/CreightonAshton/Power_Outages)
 - [Github Link for DSI-NYC students' past work.](https://github.com/boom-deva/FEMA-Power-Outage-Hotspot-Detection)
@@ -193,7 +165,7 @@ affect travel and accessibility.
 - [Github Link for DSI-NYC (4) students' past work.](https://github.com/PeterGarcia95/DisasterRelief)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 6: Using live police radio reports for real time identification of people needing assistance.**
+#### Problem: Using live police radio reports for real time identification of people needing assistance.
 
 *Problem Statement:* Currently, FEMA identifies areas that require immediate attention (for search and rescue efforts) either by responding to reports and requests put directly by the public or, recently, using social media posts. This tool will utilize live police radio reports to identify hot spots representing locations of people who need immediate attention. The tool will flag neighborhoods or specific streets where the police and first-respondents were called to provide assistance related to the event.
 
@@ -202,36 +174,27 @@ affect travel and accessibility.
 - [Github Link for DSI-SF students' past work.](https://github.com/GWilson97/san_francisco_dispatch_audio_mapping)
 - Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
-**Problem 7: Using Indeed or Glassdoor together with number and type of affected businesses to estimate the expected economic loss due to a disaster**
-
-*Problem Statement:* This tool will rely on websites that provide employment information and sector-specific wage estimations (such as Glassdoor and Indeed) to project the economic loss (wage loss) due to a disaster. Based on the type of businesses and services in a given affected area and/or using supplementary demographic data (for example, from the Census Bureau of Statistics), the tool will provide an estimation about the projected economic loss in a given locality based on the reported or estimated wage loss in the locality.
-
-- [Github Link for DSI-BOS students' past work.](https://github.com/EricPmWong/NewLightTechQ11)
-- [Github Link for DSI-DC students' past work.](https://github.com/whiteashleye/EconomicLoss_NaturalDisaster)
-- [Github Link for DSI-SF students' past work.](https://github.com/mitchdshawn/disaster_income_loss)
-- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
-
-**Problem 8: Crowdsourcing Damage Photos**
+#### Problem: Crowdsourcing Damage Photos
 
 *Problem Statement:*
 Imagery is scarce at the start of a disaster. FEMA and partners rely on photos and other imagery to understand the disaster impacts and validate reports of damage. However, it is almost impossible to systematically acquire imagery the first day. Within the first few days, FEMA typically receives several types of satellite data. Within a week, other aerial imagery becomes available. Photos posted to social media can help fill in gaps in the interim, but these images are not captured systematically. The entire emergency management community would benefit from an app or service that anyone in an impacted area could use to take and submit photos. Ideally, these photos could be attained with cameras people may have on them (e.g. iPhones) or low-cost cameras. We need a systematic image capture workflow in order to conduct AI/ML/edge computing to conduct damage assessments. (Doing this from the ground would probably be quicker/easier than waiting on the winds to dissipate so you can fly planes.)
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project, results, and next steps or proposal to scale.
 - A list of technical requirements for an app that allows anyone in an impacted area to upload disaster photos. Examples include:
      - Must work in a low-connectivity environment (e.g. phone-to-phone mesh networks)
      - Includes geolocation of upload
      - Allows user to annotate or tag photos
      - Service/app can be deployed through email, social media, emergency messaging systems, or other common platforms
-- Open source code for a “crowdsourcing app” that meets the defined requirements.
+- Open source code for a "crowdsourcing app" that meets the defined requirements.
 - A pilot or proof of concept.
  
-**Problem 9: Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery**
+#### Problem: Finding Tents and Other Emergency Housing Through Exploitation of Satellite Imagery
 
 *Problem Statement:*
 During disasters, emergency management agencies and humanitarian organizations need to know where survivors are congregating in order to provide emergency supplies and services. Sometimes, as was the case during the January 2020 earthquakes in Puerto Rico, local communities set up tents as informal shelters. State and national-level organizations may not know about these shelters for days. How can satellite imagery be used to identify informal shelters? Can the same imagery be used to observe changes in the number of tents or occupants? Can we see when a tent shelter is taken down?
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for exploiting open source imagery
 - An example or case study (e.g. Puerto Rico earthquakes)
@@ -242,12 +205,12 @@ During disasters, emergency management agencies and humanitarian organizations n
 - Google Earth imagery
 - Other imagery from earth-observing satellites
 
-**Problem 10: Updating Shelter Status**
+#### Problem: Updating Shelter Status
 
 *Problem Statement:*
 During disasters, shelters provide supplies and services to disaster survivors. Informal shelters can often be identified through social media and other internet sources; shelter operators are efficient at messaging about resource availability. However, this information is highly perishable, and it is difficult to know when a shelter is closed. How can social media or an app be used to allow any person visiting a shelter to record changes about the shelter status?
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - List of requirements for a system to track shelter status. For example:
      - Tracks changes in shelter status over time
@@ -258,12 +221,12 @@ During disasters, shelters provide supplies and services to disaster survivors. 
 *Descriptions of input data:*
 - Social media, news outlets
  
-**Problem 11: Identifying Misinformation in Disaster-Related Social Media Posts**
+#### Problem: Identifying Misinformation in Disaster-Related Social Media Posts
 
 *Problem Statement:*
 While social media increasingly becomes the first source of information about disasters, this information is not always correct. Posts can be misleading or mistaken. On rarer occasion, users intentionally spread misinformation. How can emergency management agencies identify incorrect information before, during, and after disasters?
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for identifying rumors among relevant social media posts
 - Proof of concept or pilot from a recent disaster
@@ -271,12 +234,12 @@ While social media increasingly becomes the first source of information about di
 *Descriptions of input data:*
 - Social media
  
-**Problem 12: Extracting Flood Depths from Imagery**
+#### Problem: Extracting Flood Depths from Imagery
 
 *Problem Statement:*
 Floods cause damage to infrastructure and homes. The depth of flood waters is a good indicator of the severity of damage. Floods are incredibly difficult to model, and while model outputs are useful to emergency managers, it is crucial to know the actual depth. Social media and news outlets often present pictures of floods. How can this imagery be used to estimate the depth of water in a given area? 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for estimating flood depths from ground-based imagery
 - Example from flooding after a recent hurricane (e.g. Imelda, Florence, Harvey)
@@ -285,24 +248,24 @@ Floods cause damage to infrastructure and homes. The depth of flood waters is a 
 - Social media
 - News (TV, internet, etc.)
 - Traffic cameras
-- Google Street View (“normal” imagery)
+- Google Street View ("normal" imagery)
 
-**Problem 13: Improve Slum Area Identification through Real-Estate Data**
+#### Problem: Improve Slum Area Identification through Real-Estate Data
 
 *Problem Statement:*
 Mapping of informal settlements with satellite imagery is a long-standing practice, but such methods could be enhanced through web-scraped real-estate data. This project would build a web scraper to house and apartment adverts for a selected city in Africa/Latin America/Middle East. The scraper should download all adverts in the city during a recent period (ideally 3 years or more); and map all the adverts. The project should test the feasibility of estimating informal tenure from this information. Using gridded population estimates (e.g. from Facebook), the team would calculate the ratio of real estate adverts with population density. This ratio could serve as an input to machine learning models aimed at mapping informal settlements.
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for full process from gathering data to calculating and mapping the real estate to population density ratio
 - Proof of concept or pilot from a city or collection of cities.
 
-**Problem 14: Sentiment Analysis of COVID-19 Social Media Posts**
+#### Problem: Sentiment Analysis of COVID-19 Social Media Posts
 
 *Problem Statement:*
 The COVID-19 response has been largely regional and state-based in nature. Some states have enacted strictly enforced stay-at-home policies, while others have provided guidelines. It would be worthwhile to compare the sentiment analysis of social media posts across geographic regions and compare them to both the local policies on social distancing and the occurrences of the pandemic in those areas. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - Open source code for identifying social media posts from specific regions and conducting a sentiment analysis or topic extraction on that data
 
@@ -311,12 +274,12 @@ The COVID-19 response has been largely regional and state-based in nature. Some 
 - Government data on social distancing policies
 - Health related data on COVID-19 occurrences in that region
 
-**Problem 15: Mapping Hotspots of COVID-19 Cases**
+#### Problem: Mapping Hotspots of COVID-19 Cases
 
 *Problem Statement:*
 The data released regarding instances of the COVID-19 pandemic is aggregated before it is released to (legally and ethically) protect the privacy of those involved. Unfortunately, this takes away some of the utility of the data.  Using social media, the location of cases can be narrowed further while still protecting privacy rights. Social media data can provide a heat map for potential COVID-19 risk. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write up describing the project, results, and next steps or proposal to scale
 - A shape file or other GIS visualization of potential heat map of COVID-19 cases. 
 
@@ -324,12 +287,12 @@ The data released regarding instances of the COVID-19 pandemic is aggregated bef
 - Social media
 - Health related data on COVID-19 occurrences in that region
 
-**Problem 16: Identifying Areas At Risk for COVID-19 and Other Natural Disasters**
+#### Problem: Identifying Areas At Risk for COVID-19 and Other Natural Disasters
 
 *Problem Statement:*
 The COVID-19 pandemic, in some areas of the globe, will exacerbate the ongoing risk/exposure to other natural disasters. There is little understanding of the coupling of the pandemic risk and the risk of these other occurrences. A case study will show, via geospatial analysis, an overlay of the severity of the COVID-19 pandemic and the risk of floods, hurricanes, earthquakes, drought, etc. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - The output should be geospatial with layers of the different disaster exposures.
 
@@ -337,24 +300,24 @@ The COVID-19 pandemic, in some areas of the globe, will exacerbate the ongoing r
 - Current and/or historic natural disaster risk data
 - Health related data on COVID-19 occurrences 
 
-**Problem 17: Mapping Available Commodities During the COVID-19 Pandemic**
+#### Problem: Mapping Available Commodities During the COVID-19 Pandemic
 
 *Problem Statement:*
 On a daily basis, news and social media highlight the shortage of certain commodities in local stores. There are limited ways for stores to indicate the availability of commodities that may be in demand (paper products, cleaning supplies, hand soap and sanitizer, etc). People, and stores, post on social media when they have availability. This project would be to create a geospatial layer that pulls in real-time social media posts to highlight where items are available in a given geographic location. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - A geospatial output that shows the location of social media posts and available commodities, with a time stamp on those posts.
 
 *Descriptions of input data:*
 - Open source code to automatically identify a commodity and its availability at a given location. 
 
-**Problem 18: Chicago Case Study: Hotel Availability for Quarantine**
+#### Problem: Chicago Case Study: Hotel Availability for Quarantine
 
 *Problem Statement:*
 The City of Chicago was the first in the United States to coordinate the use of available hotel rooms as a location for safe quarantine during the COVID-19 pandemic. The hotels participating aren’t readily known to those who may need to use them for quarantine purposes. This project would be to create a tool to visualize in a geospatial layer the hotels used for quarantine, as well as their capacities. 
 
-*Proposed Deliverables:*
+*Suggestions for Deliverables:*
 - A short write-up describing the project.
 - A geospatial output that shows the location and capacity of hotels used for quarantine in real-time.
 
@@ -431,11 +394,11 @@ For the purposes of a DSI project, you must meet a few technical requirements. T
     - I should be able to `Restart & Run All` in your notebook(s) and see that the _exact same_ results are reproduced.
     - To check that everything worked properly, you may consider forking your own repo to a different location on your computer and checking that all notebooks can run properly from top to bottom.
 
-3) Bear in mind that the value you provide to New Light Technologies may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
+3) Bear in mind that the value you provide may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
 
-**Deadline**: May 15, 2020.
+**Deadline**: August 14, 2020.
 
-**Questions**: Questions should be sent to your local instructor; questions that need to go to the client should be directed to Matt Brems via email (matt.brems@ga.co). **Questions should be specific, brief, and formatted so that they can be directly sent to our contacts at NLT.**
+**Questions**: Questions should be sent to your local instructor. **Questions should be specific, brief, and formatted.**
 > This is a good practice to develop! When contacting a boss or a client, you should make your question as easy as possible to answer. Consider the following two examples:
 
 > Example 1: "Hey, I have a question. I'm writing a blog post about TensorFlow but got stuck. This part was confusing: https://www.tensorflow.org/api_docs/python/tf/tanh Can you help?"
@@ -474,7 +437,6 @@ Presentation requirements:
 - Your presentation must include slides. (Google Slides, PowerPoint, Keynote, etc.)
 - Use visuals that are appropriately scaled and interpretable.
 - Make sure you provide clear conclusions/recommendations that follow logically from your analyses and narrative and answer your data science problem.
-- *Your presentation must also be recorded so that it may be shared with the client.*
 
 ---
 
