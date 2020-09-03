@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 5: Group Project
 
-### The work
+## The work
 
 For this project, you will be doing work that focuses on: 
 - preparing for emergencies,
@@ -11,7 +11,7 @@ The goal is for you to leverage your skills to help solve real-world problems. Y
 
 The prompts are intended to help jump-start your ideation process. If you would like to edit a problem (for example, picking a different data source) or combine multiple prompts together, you may do that as well! **Consult your local instructor for final approval before getting started.**
 
-### The Data
+## The Data
 
 For this project, you aren't given any data! You are given *possible* sources for data, but don't feel limited by this. Be creative in where and how you gather data!
 - Is there data easily downloadable into a .csv or .json file? 
@@ -24,59 +24,24 @@ As with the Reddit project, it's important to identify source(s) for your data e
 
 **This is where you come in**:
 
-For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **Friday, August 14**, you'll present your findings and deliver:
+For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **DATE TBD**, you'll present your findings and deliver:
 1. A clean GitHub repo containing reproducible results and analysis.
 2. A real-world demonstration of the product.
 3. Any documentation for running the code.
 
-> This is an exciting opportunity to identify and solve a problem relevant to the real world issues. Using your data science skills in this practical, _pro bono_ capacity reflects well on you and gives you a great story as you embark on interviews! (The fact that we'll be using open data also gives you free reign to publicly publish your findings and to freely discuss this in interviews.)
+## Prompts
 
-### Problem Summaries
+### Aviation Accidents
 
-#### Problem: Leveraging Social Media to Map Disasters
+The National Transportation Safety Board (NTSB) [tracks](https://www.ntsb.gov/_layouts/ntsb.aviation/index.aspx) all civilian aviation accidents (and "incidents") going back to 1962. 
 
-*Problem Statement:*
-- When responding to disasters (e.g. damage and casualties caused by hurricanes, tornadoes, floods, fires etc.), it is critical to map and identify locations of survivors needing assistance.
-- Currently, satellite and aerial imagery, ground surveys and modeled hazard data are the primary tools used to assess damage and to identify areas where survivors may need assistance.
-- Often, survivors will resort to using social media to call for help or share information about their location and the current situation. In many cases they will also include useful images showing water levels, amount of damage etc. which could indicate on the intensity of the disaster.
-- This information can be leveraged to track the event in real-time. Social media can help identify isolated communities at risk, locations of survivors and areas where assistance teams should be sent for search and rescue, levels of damage, help map depths of flooding, identify where additional imagery/information needs to be collected and plan when and where resources should be allocated.
-- This project will discover new ways to leverage social media (including from Twitter, Facebook, Instagram, Snapchat, or others) to supplement current tools and methodologies used when responding to disasters.
-- The tools developed in this project will also help leverage social media to locate hot spots of where people are needing assistance, using, for example, geolocated posts/tweets containing keywords such as "flood", "fire", "damage", "destroyed" or anything else that could be related to the specific disaster event, including searching for images tagged with  relevant keywords. A main challenge will be, of course, removing irrelevant information that may happen to contain similar keywords.
+*Problem Statement Ideas:*
+- What are the leading causes of accidents (weather, mechanical, etc)?
+- What types of accidents have a higher likelihood of fatality?
 
 *Suggestions for Deliverables:*
-- A short write-up describing the project.
-- Open source code to allow for implementation of this big data search process during a
-disaster.
-- The code should be flexible enough and allow the end user to change certain keywords
-which would correspond to different disaster types, e.g.: "flood", "water", "depth", for a
-flood event and "burn", "fire", "smoke" for a wildfire event. Possible disaster events
-include floods, fires, hurricanes, earthquakes, tornadoes, tsunamis and volcanoes.
-- Output of this code should be a geolocated dataset (a GIS shapefile or json with lat/long
-reference, or a KML file) with relevant information acquired from the tweet as attribution
-- A preliminary proof of concept using a real-world example.
-
-*Descriptions of data used as input:*
-
-- Geo-referenced disaster-specific social media posts (with or without images).
-
-- [Github Link for DSI-ATX students' past work.](https://github.com/skshenoy/disasters-and-social-media)
-- [Github Link for DSI-ATX (2) students' past work.](https://git.generalassemb.ly/nlac10/project-5-on-hurricane-harvey)
-- [Github Link for DSI-CHI students' past work.](https://github.com/alexlshon/MNDT-Project)
-- [Github Link for DSI-DC students' past work.](https://github.com/belencito27/Map_Disasters_Twitter)
-- [Github Link (2) for DSI-DC students' past work.](https://github.com/TungPhung/Twitter-Natural-Disaster-Mapping)
-- [Github Link for DSI-BOS students' past work.](https://github.com/dawngraham/power-outages)
-- [Github Link (2) for DSI-BOS students' past work.](https://github.com/TengCXXI/Mapping-Disasters-with-Social-Media)
-- [Github Link for DSI-LA students' past work.](https://github.com/csinatra/Twitter-Disaster-Repo)
-- [Github Link for DSI-LA (2) students' past work.](https://github.com/dae-han/disaster_tweet_map)
-- [Github Link for DSI-NYC students' past work.](https://github.com/cameronbronstein/Project-4-New-Light-Technologies-Client-Project)
-- [Github Link (2) for DSI-NYC students' past work.](https://github.com/ondovj/mapping_natural_disasters)
-- [Github Link (3) for DSI-NYC students' past work.](https://github.com/Preeya0225/disaster_map)
-- [Github Link for DSI-SEA students' past work.](https://github.com/ukm5/ClientProject_NewLightsTechnologies)
-- [Github Link for DSI-SF students' past work.](https://github.com/sgodfrey66/Camp_Fire_Analysis)
-- [Github Link (2) for DSI-SF students' past work.](https://github.com/pwalesdi/Mapping_Disasters)
-- [Github Link (3) for DSI-SF students' past work.](https://github.com/Ishan16D/TwitterDisasterMapping)
-- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
-
+- Use Latent Dirichlet Allocation (LDA) to group accidents into topics.
+- Build a model that predicts the probability of fatality given an accident description. You would have to hand label each accident (Amazon's Mechanical Turk and Google Cloud have hand-labeling service you could try out.)
 
 #### Problem: Leveraging News and Media for Situational Awareness
 
