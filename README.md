@@ -2,32 +2,17 @@
 
 ## The work
 
-For this project, you will be doing work that focuses on: 
-- preparing for emergencies,
-- rapidly responding to emergencies, and/or 
-- estimating the economic impact of disasters.
+For this project, you will be doing work that focuses on social impact.
 
-The goal is for you to leverage your skills to help solve real-world problems. Your instructors have identified several potential prompts. You may pick one and attempt to solve it. 
+The prompts are there to help jump-start your ideation process. If you would like to change or combine prompts, that's fine! If you want to find your own idea, even better. **Consult your local instructor for final approval before getting started.**  
 
-The prompts are intended to help jump-start your ideation process. If you would like to edit a problem (for example, picking a different data source) or combine multiple prompts together, you may do that as well! **Consult your local instructor for final approval before getting started.**
+Remember to start with a good problem statement!
 
 ## The Data
 
-For this project, you aren't given any data! You are given *possible* sources for data, but don't feel limited by this. Be creative in where and how you gather data!
-- Is there data easily downloadable into a .csv or .json file? 
-- Can you get access to a database of data?
-- Can you access an API? 
-- Do you need to build a scraper? 
-Be sure to consider any legal, regulatory, and ethical issues when accessing data!
+Some prompts have links to data sources, some don't. It's your responsibility to gather and clean your data. For most projects, this will be the bulk of your work.Start early!
 
-As with the Reddit project, it's important to identify source(s) for your data early and gather as soon as possible, as this might be a large bottleneck toward completing a project.
-
-**This is where you come in**:
-
-For the next three weeks, our class will tackle various projects related to emergency preparedness and economic analysis. On **DATE TBD**, you'll present your findings and deliver:
-1. A clean GitHub repo containing reproducible results and analysis.
-2. A real-world demonstration of the product.
-3. Any documentation for running the code.
+Inspiration for several prompts came from [Data is Plural](https://tinyletter.com/data-is-plural).
 
 ## Prompts
 
@@ -35,43 +20,18 @@ For the next three weeks, our class will tackle various projects related to emer
 
 The National Transportation Safety Board (NTSB) [tracks](https://www.ntsb.gov/_layouts/ntsb.aviation/index.aspx) all civilian aviation accidents (and "incidents") going back to 1962. 
 
-*Problem Statement Ideas:*
-- What are the leading causes of accidents (weather, mechanical, etc)?
-- What types of accidents have a higher likelihood of fatality?
-
 *Suggestions for Deliverables:*
 - Use Latent Dirichlet Allocation (LDA) to group accidents into topics.
 - Build a model that predicts the probability of fatality given an accident description. You would have to hand label each accident (Amazon's Mechanical Turk and Google Cloud have hand-labeling service you could try out.)
 
-#### Problem: Leveraging News and Media for Situational Awareness
+### Professional Athletes
 
-*Problem Statement:*
-- During a major disaster, it is essential to provide the public and responders with relevant local news updates in order to gain situational awareness during the event.
-- During a disaster, news updates are coming from tens to hundreds of different sources, all in different formats, available from different websites, news channels etc., and it is often difficult to find what would be most helpful amid the chaos of other non-disaster related news and media.
-- There is currently no forum for rounding up and archiving relevant news for a live disaster event.
-- This project will leverage news feeds relevant to specific disasters, gathered from multiple sources, to create a webpage that presents these live feeds under one umbrella (on one page). This is similar to the Google News feature.
+Talent plays a huge role in success as a professional athlete. Or does it?
 
-*Suggestions for Deliverables:*
-- A short write-up describing the project.
-- An open source code that allows to create a disaster-specific webpage, which "pulls" relevant news articles relevant to a specific event. The code should only pull the title of the article/post, an abstract/summary (if available) and an image/ thumbnail (if available) and include a link to the original source.
-- An example (proof of concept) of a disaster event-specific web page which is populated by a real-time feed of relevant news articles, journals, blog posts, videos, etc. pertaining to a live event such as "Hurricane Lane", or "Hurricane Harvey", etc.
-  - A user accessing this web page should have the ability to filter the search query by date, media type and certain keywords such as "evacuation", "fire", "damage assessment",
-  name of a city, etc.
-  - The tool should also allow the website editor to set these keywords and search queries (i.e. the page will always show the relevant news feeds set by the editor/admin).
-  - This web page can be integrated with other methods to provide situational awareness to the disaster response community such as being featured on a disaster response website with relevant disaster data.
-  - Map files, toolboxes, data and any other supporting files are needed as deliverables to test and run the code.
+[Malcolm Gladwell](https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930) notes most Canadian hockey players are born between January and March. The calendar year is the cutoff for kids hockey leagues. As a result, kids born earlier in the year are older, larger and more coordinated. Gladwell believes they're given more ice time, which snowballs their entire lives.
 
-*Descriptions of input data:*
-- News articles, journals, blog posts, videos from external media websites
-- Online forms of relevant disaster media
+For this prompt, choose a professional sport and compare the distribution of birth months vs the US population. [Sports Reference](https://www.sports-reference.com/) is a good resource for men's and women's sports.
 
-- [Github Link for DSI-BOS students' past work.](https://github.com/keencyclist/disaster)
-- [Github Link (2) for DSI-BOS students' past work.](https://github.com/mariellemarcus/New-Light-Technologies-Project)
-- [Github Link for DSI-NYC students' past work.](https://github.com/RMExe/disaster-web/)
-- [Github Link for DSI-SF students' past work.](https://github.com/surajsakaram/NLT-Client-Project)
-- [Github Link for DSI-SF (2) students' past work.](https://github.com/billypyu/Project-4-Disaster-Classification-Leveraging-News-and-Media-for-Situational-Awareness)
-- [Github Link for DSI-SF (3) students' past work.](https://github.com/tmckee35/Team-4-Client-Project)
-- Feel free to use this as a reference or to build on top of it. **Make sure to provide credit where credit is due!!**
 
 #### Problem: Optimizing Evacuation Routes using Real-Time Traffic Information
 
