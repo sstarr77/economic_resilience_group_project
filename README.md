@@ -27,12 +27,6 @@ The Center for Disease Control has several datasets:
 - [Smoking and Tobacco Use](https://data.cdc.gov/browse?category=Smoking+%26+Tobacco+Use)
 - [COVID-19](https://data.cdc.gov/browse?tags=covid-19)
 
-### Professional Athletes
-
-For this prompt, choose a professional sport and compare the distribution of birth months vs the US population. [Sports Reference](https://www.sports-reference.com/) is a good resource for men's and women's sports.
-
-h/t [Malcolm Gladwell](https://youtu.be/kspphGOjApk?t=148)
-
 ### Economic Data
 
 If you're interested in a project focused on the economy, the Bureau of Labor Statistics (BLS) has [several datasets](https://www.bls.gov/data/) ranging from employment to inflation.
@@ -52,6 +46,12 @@ The EPA has data on [air quality](https://cfpub.epa.gov/airnow/index.cfm?action=
 ### Consumer Complaints
 
 The Consumer Financial Protection Bureau maintains a [dataset](https://www.consumerfinance.gov/data-research/consumer-complaints/) on customer complaints to various financial organizations in the US.
+
+### Professional Athletes
+
+For this prompt, choose a professional sport and compare the distribution of birth months vs the US population. [Sports Reference](https://www.sports-reference.com/) is a good resource for men's and women's sports.
+
+h/t [Malcolm Gladwell](https://youtu.be/kspphGOjApk?t=148)
 
 ## Requirements
 For the purposes of a DSI project, you must meet a few technical requirements. They are:
