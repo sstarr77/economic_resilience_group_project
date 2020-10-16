@@ -43,6 +43,10 @@ The EPA has data on [air quality](https://cfpub.epa.gov/airnow/index.cfm?action=
 
 [The Mass Mobilization Project](https://massmobilization.github.io/) provides data on demonstrations worldwide, as well as the government responses.
 
+### Charity
+
+[Data.world](https://data.world/datasets/charity) has several datasets related to altruism: donations, organizations, and volunteerism. 
+
 ### CTE
 
 Chronic Traumatic Encephalopathy (CTE) is a horrific brain disease, and occurs [frequently](http://www.bu.edu/articles/2017/cte-former-nfl-players/) in former NFL players. Gathering the data will take some work, but here are some starter links.
