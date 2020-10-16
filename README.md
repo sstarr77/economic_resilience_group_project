@@ -66,6 +66,10 @@ For this prompt, choose a professional sport and compare the distribution of bir
 
 h/t [Malcolm Gladwell](https://youtu.be/kspphGOjApk?t=148)
 
+### Still stuck?
+
+Check out [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/) for inspiration.
+
 ## Requirements
 For the purposes of a DSI project, you must meet a few technical requirements. They are:
 1)  A `README.md` file in your project repo. Note that `README` files are automatically rendered by GitHub when you view a repo. Your README should contain:
