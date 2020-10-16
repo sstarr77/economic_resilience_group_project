@@ -43,6 +43,9 @@ The EPA has data on [air quality](https://cfpub.epa.gov/airnow/index.cfm?action=
 
 [The Mass Mobilization Project](https://massmobilization.github.io/) provides data on demonstrations worldwide, as well as the government responses.
 
+### Politics
+FiveThiryEight is a great news and commentary site for all things data. Their main foci are sports and politics. If you're interested in polling data, check out the "Data" links in the footer on [this page](https://projects.fivethirtyeight.com/2020-election-forecast/).
+
 ### Consumer Complaints
 
 The Consumer Financial Protection Bureau maintains a [dataset](https://www.consumerfinance.gov/data-research/consumer-complaints/) on customer complaints to various financial organizations in the US.
