@@ -31,7 +31,7 @@ The Center for Disease Control has several datasets:
 
 If you're interested in a project focused on the economy, the Bureau of Labor Statistics (BLS) has [several datasets](https://www.bls.gov/data/) ranging from employment to inflation.
 
-### Voter Fraud
+### Voter Fraud (or lack thereof)
 The Brookings Institute had an [interesting article](https://www.brookings.edu/blog/fixgov/2020/06/02/low-rates-of-fraud-in-vote-by-mail-states-show-the-benefits-outweigh-the-risks/) on voter fraud. Although no datasets are provided, there are several links to sources where you might be able to find some.
 
 ### Incarceration
@@ -77,7 +77,7 @@ The Securities and Exchange Commission (SEC) is the go-to for [financial data](h
 
 The US Treasury Department has several datasets related to public debt. The [yield curve](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview.aspx?data=yield) is a key indicator of economic health. They also maintain data on the sale of [securities](https://www.treasurydirect.gov/instit/annceresult/annceresult.htm).
 
-They also have [auction data](https://home.treasury.gov/services/treasury-auctions) for items that are siezed by the IRS.
+They also have [auction data](https://home.treasury.gov/services/treasury-auctions) for items that are seized by the IRS.
 
 ### Federal Reserve
 
@@ -85,7 +85,7 @@ The Fed has a wide variety of [datasets](https://www.federalreserve.gov/datadown
 
 ### Still stuck?
 
-Check out [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/) for inspiration.
+Check out [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/), [Data.world](https://data.world/) and [Kaggle](https://www.kaggle.com/datasets) for inspiration.
 
 ## Requirements
 For the purposes of a DSI project, you must meet a few technical requirements. They are:
