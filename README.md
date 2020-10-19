@@ -69,6 +69,20 @@ For this prompt, choose a professional sport and compare the distribution of bir
 
 h/t [Malcolm Gladwell](https://youtu.be/kspphGOjApk?t=148)
 
+### SEC
+
+The Securities and Exchange Commission (SEC) is the go-to for [financial data](https://www.sec.gov/edgar/searchedgar/companysearch.html) on US publicly traded companies. The also have [press releases](https://www.sec.gov/litigation/litreleases.shtml) that pertain to various violations.
+
+### US Treasury
+
+The US Treasury Department has several datasets related to public debt. The [yield curve](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview.aspx?data=yield) is a key indicator of economic health. They also maintain data on the sale of [securities](https://www.treasurydirect.gov/instit/annceresult/annceresult.htm).
+
+They also have [auction data](https://home.treasury.gov/services/treasury-auctions) for items that are siezed by the IRS.
+
+### Federal Reserve
+
+The Fed has a wide variety of [datasets](https://www.federalreserve.gov/datadownload/) related to the economy and financial markets.
+
 ### Still stuck?
 
 Check out [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/) for inspiration.
