@@ -1,5 +1,4 @@
 ### EDA Data Dictionary
-Local Area Unemployment Statistics
 
 This data dictionary provides an overview of features/variables/columns, alongside data types and descriptions. 
 
