@@ -1,19 +1,15 @@
 ### EDA Data Dictionary
+Local Area Unemployment Statistics
 
 This data dictionary provides an overview of features/variables/columns, alongside data types and descriptions. 
 
-|Feature|Type|Source|Description|
-|---|---|---|---|
-|**title**|*object*|engineered_data_title_and_selftext.csv|Title of the Reddit post|
-|**selftext**|*object*|engineered_data_title_and_selftext.csv|Selftext within the Reddit post| 
-|**subreddit**|*object*|engineered_data_merged_columns.csv|Identifies which Subreddit the post was from. Options are backpacking or ultrarunning|
-|**created_utc**|*int*|engineered_data_merged_columns.csv|Date of Reddit post, in Unix Epoch time| 
-|**title_merge**|*object*|engineered_data_merged_columns.csv|Combination of **title** and **selftext** columns| 
-|**title_sentiment_neg**|*float*|engineered_data_merged_columns.csv|A sentiment intensity score received from the SentimentIntensityAnalyzer. Sentiment strength is based on the input text: positive values are positive valence, negative values are negative valence| 
-|**title_sentiment_neu**|*float*|engineered_data_merged_columns.csv|A sentiment intensity score received from the SentimentIntensityAnalyzer. Sentiment strength is based on the input text: positive values are positive valence, negative values are negative valence| 
-|**title_sentiment_pos**|*float*|engineered_data_merged_columns.csv|A sentiment intensity score received from the SentimentIntensityAnalyzer. Sentiment strength is based on the input text: positive values are positive valence, negative values are negative valence|
-|**title_sentiment_compound**|*float*|engineered_data_merged_columns.csv|A sentiment intensity score received from the SentimentIntensityAnalyzer. It is derived from the sum of positive, negative & neutral scores which is then normalized between -1 and +1|
-|**title_length**|*int*|engineered_data_merged_columns.csv|Number of characters within the **title_merge** column|
-|**title_word_count**|*int*|engineered_data_merged_columns.csv|Number of words within the **title_merge** column|
-|**capitalized_letters_in_title**|*flintoat*|engineered_data_merged_columns.csv|Number of capitalized letters within the **title_merge** column|
-|**sentences_in_title**|*int*|engineered_data_merged_columns.csv|Number of sentences within the **title_merge** column|
+|Feature|Type|Dataset|Source|Description|
+|---|---|---|---|--|
+|**Year**|*int*|KMeans-5_Cluster-0_employment.csv|U.S. Bureau of Labor Statistics|Year of unemployment statistic|
+|**Period**|*object*|KMeans-5_Cluster-0_employment.csv|U.S. Bureau of Labor Statistics|Period, or month, of unemployment statistic| 
+|**labor force participation rate**|*float*|KMeans-5_Cluster-0_employment.csv|U.S. Bureau of Labor Statistics|The labor force participation rate represents the number of people in the labor force as a percentage of the civilian noninstitutional population. The labor force participation rate is calculated as: (Labor Force ÷ Civilian Noninstitutional Population) x 100.|
+|**labor force**|*float*|KMeans-5_Cluster-0_employment.csv|U.S. Bureau of Labor Statistics|The labor force includes all people age 16 and older who are classified as either employed and unemployed, as defined below. Conceptually, the labor force level is the number of people who are either working or actively looking for work.| 
+|**employment**|*float*|KMeans-5_Cluster-0_employment.csv|U.S. Bureau of Labor Statistics|In the Current Population Survey (CPS), people are classified as employed if, during the survey reference week, they meet any of the following criteria: 1. worked at least 1 hour as a paid employee (see wage and salary workers); 2. worked at least 1 hour in their own business, profession, trade, or farm (see self-employed); 3. were temporarily absent from their job, business, or farm, whether or not they were paid for the time off (see with a job, not at work); 4. worked without pay for a minimum of 15 hours in a business or farm owned by a member of their family (see unpaid family workers)| 
+|**unemployment**|*float*|KMeans-5_Cluster-0_employment.csv|U.S. Bureau of Labor Statistics|In the Current Population Survey, people are classified as unemployed if they meet all of the following criteria: 1.They were not employed during the survey reference week.; 2.They were available for work during the survey reference week, except for temporary illness.; 3. They made at least one specific, active effort to find a job during the 4-week period ending with the survey reference week (see active job search methods) OR they were temporarily laid off and expecting to be recalled to their job.| 
+|**unemployment rate**|*float*|KMeans-5_Cluster-0_employment.csv|U.S. Bureau of Labor Statistics|The unemployment rate represents the number of unemployed people as a percentage of the labor force. The unemployment rate is calculated as: (Unemployed ÷ Labor Force) x 100.| 
+|**State**|*object*|KMeans-5_Cluster-0_employment.csv|U.S. Bureau of Labor Statistics|State associated with all statistics|
