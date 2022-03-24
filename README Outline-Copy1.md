@@ -11,6 +11,16 @@ This project is a part of DSIR-EC-124 at [General Assembly](https://generalassem
 
 
 ## Executive Summary
+Notes from P3:
+- Make sure you are specific. No mention of the type of model you plan to develop is mentioned in your problem statement.
+- Does the student explain how the model works and evaluate its performance successes/downfalls? -- Focus here
+- Does the student provide appropriate context to connect individual steps back to the overall project?
+
+
+
+
+
+
 In order to represent the online presence mentioned previously, the models that I built leveraged data scraped from the social media platform, Reddit. In particular, the data came from the Backpacking and Ultrarunning subreddits, as these communities accurately represent our customer base. 
 
 Once the data had been collected, using the [`reddit_scraper`](./data_cleaning_and_eda/reddit_scraper.ipynb) notebook, it was stored in the `raw_data` folder in a file called [`reddit.csv`](./raw_data/reddit.csv). From there, the data was cleaned utilizing the [`data_cleaning`](./data_cleaning_and_eda/data_cleaning.ipynb) notebook, then saved to the `clean_data` folder in a file called [`reddit_clean.csv`](./clean_data/reddit_clean.csv).
