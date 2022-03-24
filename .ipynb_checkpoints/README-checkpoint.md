@@ -18,6 +18,7 @@ Are US state economies distinct enough by employment sector to be clustered? Can
 ---
 
 ### File Structure
+In an effort to provide both clean and efficient notebooks, and also more detailed notebooks, we have provided both within this repository. The notebooks found in the main project directory can be considered our Production level notebooks; however, if you would like to see more of the working processes, please refer to the `Development` directory.
 
 ```
 project
@@ -42,8 +43,7 @@ project
 │
 └──state_employment
 │    Employment files by state 
-│      
-│    
+│       
 │          
 └──state_metrics
      quarterly_personal_income.csv
@@ -57,7 +57,7 @@ project
 
 In order to collect the data that we need for this project, we scraped multiple pages from the Bureau of Labor Statistics. Initially, we were interested in extracting subsegmented industry data by state, which we were able to extract leveraging the BeautifulSoup library. We then stored these outputs in both dictionaries and dataframes, depending on their intended use cases. Once compiled, we were able to then transform these outputs to become more usable for our clustering models, by calculating aggregated statistical measures by state. 
 
-Additionally, we found the need to extract employment/unemployment data by state, which was also stored within the Bureau of Labor Statistics website. For this process, we diverted from the previous method of using BeautifulSoup, and in this case we wrote HTML files to a directory to then be extracted and transformed. Similarly to how we manipulated the subsegmented industry data, we calculated aggregated statistical measures on this dataset, only we did it by year rather than at the state level. Once this data was in the format we had hoped, we then appended the state information to the output.
+Additionally, we found the need to extract employment/unemployment data by state, which was also stored within the Bureau of Labor Statistics website. In this case, the data was already in the format we hoped, so we did not need to transform it. For the scraping process, we diverted from the previous method of using BeautifulSoup, and instead wrote HTML files to a directory to then be extracted. Finally, we appended the state information to the output to be used in clustering.
 
 Now that we had the necessary data in the format we preferred, we progressed to clustering our data. As a group we were extremely fascinated by the pure concept of what clustering was as an unsupervised learning technique. When we looked through all the available data we thought it would be interesting to see what kind of relationships a model would form between the different US states and if these relationships could predict anything or provide any insight of significance. Now that we finally completed the long and arduous process of pulling and organizing this state economic industry data we got our reward!
 
