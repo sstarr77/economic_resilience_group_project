@@ -13,7 +13,7 @@ Are US state economies distinct enough by employment sector to be clustered? Can
 
 ### Background
 
-MATT
+**Matt**
 
 ---
 
@@ -55,29 +55,31 @@ project
 
 ### Data Formatting and Modeling
 
-Dan
+**Dan** - 
 Data Scraping
 Data Cleaning & Transforming
 
 
 
-Blago - 
+**Blago** - 
 Clustering
 Cluster Merge
 
 
 
-Sabrina - 
+**Sabrina** - 
 EDA
 
 ---
 
 ### Observations
 
-As
+**Collectively**
 Discuss Findings
 
 ---
 
 ### Next Steps
+
+**Collectively**
 List these here
