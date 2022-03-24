@@ -86,3 +86,5 @@ Yes, US state economies exhibit distinctions by employment sector, allowing them
 ### Next Steps
 
 This analysis led to many possible avenues to continue exploring in our next steps. Incorporating additional factors, such as: age, homeless population, or population could prove very useful in trying to better understand a state's economic resiliency.
+
+The next step for this project would be to build a predictive model to ideally predict unemployment drops based on the clusters.
