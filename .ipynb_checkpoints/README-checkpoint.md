@@ -27,7 +27,9 @@ project
 │    00 - Data Collection.ipynb
 │    01 - Clustering.ipynb
 │    02 - Cluster Merge.ipynb
-│    03 - EDA.ipynb│
+│    03 - EDA.ipynb
+│    How Resilient is the US Economy.pdf
+│
 │
 └──Development
 │    Contains working versions of the notebooks
@@ -79,7 +81,7 @@ Overall EDA uncovered many different avenues to possibly venture in the future.
 
 ### Observations
 
-Yes, US state economies exhibit distinctions by employment sector, allowing them to be clustered differently. In general, states with the greatest economic production are impacted the most.
+Yes, US state economies exhibit distinctions by employment sector, allowing them to be clustered differently. In general, states with the greatest economic workforce are impacted the most.
 
 ---
 
