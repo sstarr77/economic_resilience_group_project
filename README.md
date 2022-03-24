@@ -80,19 +80,10 @@ Overall EDA uncovered many different avenues to possibly venture in the future.
 
 ### Observations
 
-**Collectively**
-Discuss Findings
+Yes, US state economies exhibit distinctions by employment sector, allowing them to be clustered differently. In general, states with the highest population of employment tend to be the most resilient economies and also are clustered similarly. For example, California, based on the sheer size led them to be clustered independently for all clusters observed.
 
 ---
 
 ### Next Steps
 
-
-
-
-
-The effect of these factors on economic resiliency:
-- Age
-- Homelessness
-- Death toll during pandemic
-- Population 
+This analysis led to many possible avenues to continue exploring in our next steps. Incorporating additional factors, such as: age, homeless population, or population could prove very useful in trying to better understand a state's economic resiliency.
