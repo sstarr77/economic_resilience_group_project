@@ -1,0 +1,18 @@
+### Clustering Data Dictionary
+
+This data dictionary provides an overview of features/variables/columns, alongside data types and descriptions. 
+
+|Feature|Type|Source|Description|
+|-|-|-|-|
+|**Total Nonfarm**|*float*|economies_2018.csv economies_2021.csv|Total Nonfarm is a measure of the number of U.S. workers in the economy that excludes proprietors, private household employees, unpaid volunteers, farm employees, and the unincorporated self-employed|
+|**pct_Manufacturing**|*float*|economies_2018.csv economies_2021.csv|The Manufacturing sector comprises establishments engaged in the mechanical, physical, or chemical transformation of materials, substances, or components into new products. Displayed as percentage of the Total Nonfarm| 
+|**pct_Trade, Transportation, and Utils**|*float*|economies_2018.csv economies_2021.csv|This sector provides information relating to employment in trade, transportation, and utilities. Displayed as percentage of the Total Nonfarm|
+|**pct_Information**|*float*|economies_2018.csv economies_2021.csv|The Information sector comprises establishments engaged in the following processes: (a) producing and distributing information and cultural products, (b) providing the means to transmit or distribute these products as well as data or communications, and (c) processing data. Displayed as percentage of the Total Nonfarm| 
+|**pct_Financial Activities**|*float*|economies_2018.csv economies_2021.csv|This sector provides information relating to employment in financial activities. Displayed as percentage of the Total Nonfarm| 
+|**pct_Professional & Business Services**|*float*|economies_2018.csv economies_2021.csv|This sector provides information relating to employment in professional and business services. Displayed as percentage of the Total Nonfarm| 
+|**pct_Education & Health Services**|*float*|economies_2018.csv economies_2021.csv|This sector provides information relating to employment in education and health services. Displayed as percentage of the Total Nonfarm| 
+|**pct_Leisure & Hospitality**|*float*|economies_2018.csv economies_2021.csv|This sector provides information relating to employment in leisure and hospitality. Displayed as percentage of the Total Nonfarm|
+|**pct_Other Services**|*float*|economies_2018.csv economies_2021.csv|The Other Services sector comprises establishments engaged in providing services not specifically provided for elsewhere in the classification system. Displayed as percentage of the Total Nonfarm|
+|**pct_Government**|*float*|economies_2018.csv economies_2021.csv|This sector provides information relating to employment in government. Displayed as percentage of the Total Nonfarm|
+|**pct_Mining**|*float*|economies_2018.csv economies_2021.csv|This sector provides information relating to employment in mining, quarrying, and oil and gas extraction. Displayed as percentage of the Total Nonfarm|
+|**Logging and Construction**|*float*|economies_2018.csv economies_2021.csv|This sector provides information relating to employment in natural resources and mining. Displayed as percentage of the Total Nonfarm|
