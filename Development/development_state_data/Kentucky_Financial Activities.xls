@@ -440,27 +440,40 @@ alert("Please select valid years : From Year should be less than or equal to To 
         <li class="heading"><a href="/data/tools.htm" aria-label="Data Retrieval Tools Databases, Tables & Calculators by Subject">Data Retrieval Tools</a></li>
 		<li><a href="https://data.bls.gov/cgi-bin/surveymost?bls" aria-label="BLS Popular Series Top Picks">BLS Popular Series</a></li>
 		<li><a href="https://data.bls.gov/cgi-bin/srgate" aria-label="Series Report">Series Report</a></li>
-		<li><a href="/data/" aria-label="Top Picks, One Screen, Multi-Screen, Maps, and Calculators" >Top Picks, One Screen, Multi-Screen, Maps, and Calculators</a></li>
+		<li><a href="/data/home.htm" aria-label="Top Picks, One Screen, Multi-Screen, and Maps" >Top Picks, One Screen, Multi-Screen, and Maps</a></li>
 		<li><a href="https://beta.bls.gov/dataQuery/search" aria-label="Data Finder">Data Finder</a></li>
-		<li><a href="/developers/" aria-label="Public Data API Programming Interface">Public Data API</a></li>
+		<li><a href="/developers/home.htm" aria-label="Public Data API Programming Interface">Public Data API</a></li>
+
     </ul>
     <!-- 2nd column -->
     <ul class="main-nav-submenu-inn">
-        <li class="heading"><a href="/data/tables.htm" aria-label="Customized Tables">Customized Tables</a></li>
+        <li class="heading"><a href="/data/apps.htm" aria-label="Charts and Applications">Charts and Applications</a></li>
+		<li><a href="/charts/home.htm" aria-label="Charts for Economic News Releases">Charts for Economic News Releases</a></li>	
+		<li><a href="/data/inflation_calculator.htm" aria-label="CPI Inflation Calculator">CPI Inflation Calculator</a></li>	
+		<li><a href="https://data.bls.gov/iirc/" aria-label="Injury and Illness Calculator">Injury and Illness Calculator</a></li>		
+		<li><a href="https://data.bls.gov/apps/compensation-comparison-matrix/home.htm" aria-label="Pay Measure Comparison">Pay Measure Comparison</a></li>
+		<li><a href="https://data.bls.gov/apps/demographic-comparison-matrix/home.htm" aria-label="Demographic Data Sources">Demographic Data Sources</a></li>
+		<li><a href="https://data.bls.gov/apps/covid-dashboard/home.htm" aria-label="COVID-19 Economic Trends">COVID-19 Economic Trends</a></li>
+		<li><a href="https://data.bls.gov/apps/industry-productivity-viewer/home.htm" aria-label="Industry Productivity Viewer" >Industry Productivity Viewer</a></li>
+		<li><a href="https://data.bls.gov/cew/apps/data_views/data_views.htm#tab=Tables" aria-label="Employment and Wages Data Viewer">Employment and Wages Data Viewer</a></li>
+		<li><a href="https://data.bls.gov/cew/apps/bls_naics/v2/bls_naics_app.htm" aria-label="Industry Finder from the Quarterly Census of Employment and Wages">Industry Finder from the Quarterly Census of Employment and Wages</a></li>
+	
+    </ul>
+	<!-- 3rd column -->
+	<ul class="main-nav-submenu-inn">
+	    <li class="heading"><a href="/data/tables.htm" aria-label="Customized Tables">Customized Tables</a></li>
 		<li><a href="/eag/eag.us.htm" aria-label="U.S. Economy at a Glance">U.S. Economy at a Glance</a></li>
-		<li><a href="/eag/" aria-label="Regions, States & Areas at a Glance">Regions, States &amp; Areas at a Glance</a></li>
-		<li><a href="/iag/" aria-label="Industry at a Glance">Industry at a Glance</a></li>			
+		<li><a href="/eag/home.htm" aria-label="Regions, States & Areas at a Glance">Regions, States &amp; Areas at a Glance</a></li>
+		<li><a href="/iag/home.htm" aria-label="Industry at a Glance">Industry at a Glance</a></li>			
 		<li><a href="https://download.bls.gov/pub/time.series/" aria-label="Text Files">Text Files</a></li>
 		<li><a href="/data/#historical-tables" aria-label="Historical News Release Tables">News Release Tables</a></li>
-	</ul>
-	<!-- 3rd column -->
-	<ul class="main-nav-submenu-inn">	
+		
 		<li class="heading"><a href="/bls/moredata.htm" aria-label="More Sources of Data">More Sources of Data</a></li>
-		<li><a href="/rda/" aria-label="Bureau of Labor Statistics Restricted Data Access">Restricted Data Access</a></li>
+		<li><a href="/rda/home.htm" aria-label="Bureau of Labor Statistics Restricted Data Access">Restricted Data Access</a></li>
 		<li><a href="/data/archived.htm" aria-label="Discontinued Databases">Discontinued Databases </a></li>
 		<li><a href="/help/hlpform1.htm" aria-label="Questions & Answers regarding Bureau of Labor Statistics website data retrieval tools">Questions &amp; Answers</a></li>
-		<li><a href="/help/notice.htm" aria-label="Special Notices">Special Notices </a></li>		
-    </ul>
+		<li><a href="/help/notice.htm" aria-label="Special Notices">Special Notices </a></li>	
+	</ul>
 </div>
 <!-- *********************************************End DATABASES and TOOLS LIST ******************************************** --></div>
     </li>
@@ -535,13 +548,9 @@ alert("Please select valid years : From Year should be less than or equal to To 
     </li>
     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="https://beta.bls.gov" id="navbarDropdown7" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beta <span class="circle-arrow"></span></a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown7"><!-- ***********************************************Start BETA LIST ******************************************** -->
-
 <div class="main-nav-submenu" id="submenu-beta">
   <ul class="main-nav-submenu-inn">
-      <li class="heading"><a href="https://beta.bls.gov/covid-dashboard/home.htm" aria-label="COVID-19 Economic Trends">COVID-19 Economic Trends</a></li>
     <li class="heading"><a href="https://beta.bls.gov/labs/?p=600" aria-label="Redesigned News Releases">Redesigned News Releases</a></li>
-    <li class="heading"><a href="https://beta.bls.gov/api-charts/" aria-label="Industry Productivity Viewer">Industry Productivity Viewer</a></li>
-    <li class="heading"><a href="https://beta.bls.gov/comparison-matrix/" aria-label="Comparing Pay Measures -Comparison Matrix of BLS compensation data sources">Comparing Pay Measures</a></li>
   </ul>
 </div>
 <!-- ***********************************************End BETA LIST ******************************************** --></div>
@@ -715,7 +724,7 @@ Databases, Tables & Calculators by Subject
 </FORM>
 </DIV>
 <BR>
-<P CLASS="extract"> Data extracted on: March 23, 2022 (8:10:34 PM)</P>
+<P CLASS="extract"> Data extracted on: March 24, 2022 (9:57:36 PM)</P>
 <H4> State and Area Employment, Hours, and Earnings</H4>
 <BR><table class="catalog" id="catalog0">
 <tr class="catalog"><th class="catalog" scope="row">Series Id:</th><td class="catalog">SMS21000005500000001</td></tr>
